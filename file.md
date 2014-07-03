@@ -1,20 +1,44 @@
  ATIONet Native Interface API Protocol Specification 
 
-<table>
+<table >
+	<col width="96">
+	<col width="442">
 	<tr>
-		<th style="text-align: right">Tables</th>
-		<th>Are</th>
-		<th>Cool</th>
+		<td colspan="2">
+			Document Information
+		</td>
 	</tr>
-	<tr>
-		<td>col 3 is</td>
-		<td>sdfs</td>
-		<td>dfsdf</td>
+	<tr valign="top">
+		<td>
+			<p class="western" align="right"><span lang="es-AR">File:</span></p>
+		</td>
+		<td>
+			<p class="western"><sdfield type=FILENAME format=NAME-NOEXT>file</sdfield></p>
+		</td>
 	</tr>
-	<tr>
-		<td>col 3 is</td>
-		<td>sdfs</td>
-		<td>dfsdf</td>
+	<tr valign="top">
+		<td>
+			<p class="western" align="right"><span lang="es-AR">Doc Version:</span></p>
+		</td>
+		<td>
+			<p class="western">1.3</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p class="western" align="right"><span lang="es-AR">Release Date:</span></p>
+		</td>
+		<td width="442" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western"><span lang="es-AR">30, October 2013</span></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p class="western" align="right"><span lang="es-AR">Author:</span></p>
+		</td>
+		<td>
+			<p class="western"><span lang="es-AR">ATIO International LLC</span></p>
+		</td>
 	</tr>
 </table>
 
