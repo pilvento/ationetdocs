@@ -2,7 +2,7 @@
 
 <table>
 	<tr>
-		<th>Tables</th>
+		<th style="text-align: right">Tables</th>
 		<th>Are</th>
 		<th>Cool</th>
 	</tr>
