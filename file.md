@@ -9,12 +9,12 @@
 	<tr>
 		<td>col 3 is</td>
 		<td>sdfs</td>
-		<td>dfsdftd>
+		<td>dfsdf</td>
 	</tr>
 	<tr>
 		<td>col 3 is</td>
 		<td>sdfs</td>
-		<td>dfsdftd>
+		<td>dfsdf</td>
 	</tr>
 </table>
 
