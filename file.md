@@ -10,64 +10,37 @@
 	</tr>
 	<tr valign="top">
 		<td>
-			<p class="western" align="right"><span lang="es-AR">File:</span></p>
+			File:
 		</td>
 		<td>
-			<p class="western"><sdfield type=FILENAME format=NAME-NOEXT>file</sdfield></p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td>
-			<p class="western" align="right"><span lang="es-AR">Doc Version:</span></p>
-		</td>
-		<td>
-			<p class="western">1.3</p>
+			file
 		</td>
 	</tr>
 	<tr valign="top">
 		<td>
-			<p class="western" align="right"><span lang="es-AR">Release Date:</span></p>
+			Doc Version:
+		</td>
+		<td>
+			1.3
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+		Release Date:
 		</td>
 		<td width="442" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western"><span lang="es-AR">30, October 2013</span></p>
+		30, October 2013
 		</td>
 	</tr>
 	<tr valign="top">
 		<td>
-			<p class="western" align="right"><span lang="es-AR">Author:</span></p>
+		Author:
 		</td>
 		<td>
-			<p class="western"><span lang="es-AR">ATIO International LLC</span></p>
+		ATIO International LLC
 		</td>
 	</tr>
 </table>
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-Document Information
-
-File:
-
-file
-
-Doc Version:
-
-1.3
-
-Release Date:
-
-30, October 2013
-
-Author:
-
-ATIO International LLC
-
-\
-\
 
 Change Log
 
