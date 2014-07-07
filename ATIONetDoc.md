@@ -144,6 +144,9 @@
 	</tr>
 </table>
 
+<br>
+<br>
+<br>
 
 **Contents**
 
@@ -195,10 +198,9 @@
 
 >[9.3 Account Download (POST) – Body Section Format Response](#__RefHeading__3532_1617151515)
 
-
-	
-	
-	
+<br>
+<br>
+<br>
 
 ####Overview####
 
