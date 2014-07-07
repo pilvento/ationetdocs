@@ -516,6 +516,9 @@ subscriber.
 	</tbody>
 </table>
 
+<br>
+<br>
+
 ####3 Data security####
 
 The Interface API requires an SSL connection between both parties. The
@@ -533,6 +536,9 @@ authorized users via ATIONet Console, with the role “Interface API”.
 At this time there is no provisioning to distribute or update
 certificates or thumbprint thru a system interface. This information
 will be provided at request of the Subscriber.
+
+<br>
+<br>
 
 ####4 Message Structure####
 
@@ -558,19 +564,17 @@ Authorization: Basic user:password
 
 {“ActionCode”:”nnn”,”FieldName”:”StringValue”,”FieldName”:Value}
 
-\
-
 #####Response#####
 
 *Header:*
+
 Content-Type: application/json; charset=utf-8
 
 *Body:*
 
-[{“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value},\
+[{“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value},
 {“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value}]
 
-\
 
 Note: Some Action Codes returns a single response row, for example the
 Statement charges.
@@ -580,13 +584,13 @@ below show the maximum possible length as the Size, although in
 JSON-formatted strings they will be represented with trailing spaces
 trimmed.
 
-5.  Error handling {.western}
-    ==============
+<br>
+<br>
+
+####5 Error handling#####
 
 Success/failure exits on the Interface API will be handled via HTTP
 status codes.
-
-\
 
 Successful request will get a HTTP 200 and the resulting response.
 
@@ -602,14 +606,14 @@ group will return a single JSON-formatted item with the “ResponseCode”,
 “ResponseMessage” and “ResponseError” fields. The body of these
 responses will never be empty.
 
-\
-
 Failure to process the request will be indicated by an HTTP 400’s range
 status code. The body will contain a single JSON-formatted item with the
 “ResponseCode”, “ResponseMessage” and “ResponseError” fields.
 
-6.  Statement Charges Interface {.western}
-    ===========================
+<br>
+<br>
+
+####6 Statement Charges Interface####
 
 The Statement Charge message sends an instruction to ATIONet to apply a
 well-defined action on the current account subsystem, the subject of the
@@ -619,8 +623,7 @@ Driver account.
 Depending on the type of charge, this message might be used by one or
 the other party of the contract (the subscriber or the fleet company).
 
-3.  Action Codes {.western}
-    ------------
+#####6.1 Action Codes#####
 
 The Action Code specifies the type of accounting transactions requested
 by a Statement Charge Message. The submitted code must match one of the
@@ -713,11 +716,7 @@ Sub-account Balance must have enough funds (or product volume) to allow
 the withdrawal; otherwise the action will be rejected by the current
 accounts subsystem.
 
-\
-\
-
-4.  Identification {.western}
-    --------------
+#####6.2 Identification#####
 
 When a Statement Charge is received, ATIONet will try to identify the
 Subscriber, the Species (Currency Code or Master Fuel Code) and the
@@ -734,8 +733,7 @@ the message:
 3.  Company Code + Contract Code + (Driver Code or Vehicle Code or
     Vehicle Plate)
 
-1.  Statement Charge (POST) – Body Section Record Format {.western}
-    ----------------------------------------------------
+#####6.3 Statement Charge (POST) – Body Section Record Format#####
 
 Field Name
 
