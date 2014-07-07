@@ -1,29 +1,46 @@
-![](C:\Users\fhart\Desktop\Logo.png)
+![ATIONET](C:\Users\fhart\Desktop\Logo.png)
 
-ATIONet Native Interface API Protocol Specification
+#ATIONet Native Interface API Protocol Specification#
 
-![](C:\Users\fhart\Desktop\Header.png)
-
-\
-\
-
-Document Information
-
-File:
-
-ATIONet-Native\_Interface\_Protocol\_Spec-v1.3
-
-Doc Version:
-
-1.3
-
-Release Date:
-
-05, July 2014
-
-Author:
-
-ATIO International LLC
+<table>
+	<tr>
+		<td colspan="2">
+			<b>Document Information<b>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			File:
+		</td>
+		<td>
+			ATIONet-Native_Interface_Protocol_Spec-v1.3
+		</td>
+	</tr>
+	<tr>
+		<td>
+		 Doc Version:
+		</td>
+		<td>
+		 1.3
+		</td>
+	</tr>
+	<tr>
+		<td>
+		 Release Date:
+		</td>
+		<td>
+		 05, July 2014
+		</td>
+	</tr>
+	<tr>
+		<td>
+		 Author:
+		</td>
+		<td>
+		 ATIO International LLC
+		</td>
+	</tr>
+</table>
 
 \
 \
