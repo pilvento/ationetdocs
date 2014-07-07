@@ -1,7 +1,3 @@
-<style>
-	blockquote {border:none;}
-</style>
-
 ![ATIONET](C:\Users\fhart\Desktop\Logo.png)
 
 ##ATIONet Native Interface API Protocol Specification##
@@ -153,11 +149,11 @@
 
 [1 Scope](#1--scope)
 
->>[1.1 Scope details](#11--scope-details)
+>[1.1 Scope details](#11--scope-details)
 
 [2 System Interface API](#__RefHeading__3490_1617151515)
 
-[2.1 Interface API Messages](#__RefHeading__3492_1617151515)
+>[2.1 Interface API Messages](#__RefHeading__3492_1617151515)
 
 [3 Data security](#__RefHeading__3494_1617151515)
 
@@ -167,37 +163,37 @@
 
 [6 Statement Charges Interface](#__RefHeading__3500_1617151515)
 
-[6.1 Action Codes](#__RefHeading__3502_1617151515)
+>[6.1 Action Codes](#__RefHeading__3502_1617151515)
 
-[6.2 Identification](#__RefHeading__3504_1617151515)
+>[6.2 Identification](#__RefHeading__3504_1617151515)
 
-[6.3 Statement Charge (POST) – Body Section Record Format](#__RefHeading__3506_1617151515)
+>[6.3 Statement Charge (POST) – Body Section Record Format](#__RefHeading__3506_1617151515)
 
 [7 Transactions Download Interface](#__RefHeading__3508_1617151515)
 
-[7.1 Action Codes](#__RefHeading__3510_1617151515)
+>[7.1 Action Codes](#__RefHeading__3510_1617151515)
 
-[7.2 Transactions Download (POST) – Body Section Format Request](#__RefHeading__3512_1617151515)
+>[7.2 Transactions Download (POST) – Body Section Format Request](#__RefHeading__3512_1617151515)
 
-[7.3 Transactions Download (POST) – Body Section Format Response](#__RefHeading__3514_1617151515)
+>[7.3 Transactions Download (POST) – Body Section Format Response](#__RefHeading__3514_1617151515)
 
 [8 Account Enquiries](#__RefHeading__3516_1617151515)
 
-[8.1 Action Codes](#__RefHeading__3518_1617151515)
+>[8.1 Action Codes](#__RefHeading__3518_1617151515)
 
-[8.2 Identification](#__RefHeading__3520_1617151515)
+>[8.2 Identification](#__RefHeading__3520_1617151515)
 
-[8.3 Account Enquiry (POST) – Body Section Record Format Request](#__RefHeading__3522_1617151515)
+>[8.3 Account Enquiry (POST) – Body Section Record Format Request](#__RefHeading__3522_1617151515)
 
-[8.4 Account Enquiry (POST) – Body Section Record Format Response](#__RefHeading__3524_1617151515)
+>[8.4 Account Enquiry (POST) – Body Section Record Format Response](#__RefHeading__3524_1617151515)
 
 [9 Account Downloads](#__RefHeading__3526_1617151515)
 
-[9.1 Action Codes](#__RefHeading__3528_1617151515)
+>[9.1 Action Codes](#__RefHeading__3528_1617151515)
 
-[9.2 Account Download (POST) – Body Section Format Request](#__RefHeading__3530_1617151515)
+>[9.2 Account Download (POST) – Body Section Format Request](#__RefHeading__3530_1617151515)
 
-[9.3 Account Download (POST) – Body Section Format Response](#__RefHeading__3532_1617151515)
+>[9.3 Account Download (POST) – Body Section Format Response](#__RefHeading__3532_1617151515)
 
 \
 \
