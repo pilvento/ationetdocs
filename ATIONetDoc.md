@@ -1,6 +1,7 @@
 ![ATIONET](C:\Users\fhart\Desktop\Logo.png)
 
-#ATIONet Native Interface API Protocol Specification#
+##ATIONet Native Interface API Protocol Specification##
+
 
 <table>
 	<tr>
@@ -265,7 +266,7 @@ the company who own the fleet.
 
 \
 
-#1.  Scope#
+####1.  Scope####
     =====
 
 Version 1.3 of this document covers a particular version of ATIONet’s
@@ -274,7 +275,7 @@ to a particular version of the protocol, some changes may apply which
 would be specifically commented and identified on each feature’s
 description paragraph.
 
-#1.1  Scope details:#
+#####1.1  Scope details:#####
     --------------
 
 Protocol: ATIONet Native Interface API
@@ -285,7 +286,7 @@ API URI: native.ationet.com/v1/interface\
 \
 \
 
-2.  System Interface API {.western}
+####2.  System Interface API####
     ====================
 
 The Interface API provide system-to-system access to certain features of
@@ -297,7 +298,7 @@ Availability of part or all the functionality of the Interface API is
 subject to the business type and contract terms of the ATIONet
 subscriber.
 
-1.  Interface API Messages {.western}
+#####2.1  Interface API Messages#####
     ----------------------
 
 **Name**
@@ -434,7 +435,7 @@ Account Downloads\
 
 ~~952 - Contract Movements Download~~
 
-3.  Data security {.western}
+####3.  Data security####
     =============
 
 The Interface API requires an SSL connection between both parties. The
