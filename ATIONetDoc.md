@@ -44,7 +44,8 @@
 
 <table>
 	<tr>
-		<td colspan="3">Change Log
+		<td colspan="3">
+			<b>Change Log<b>
 		</td>
 	</tr>
 	<tr>
@@ -142,14 +143,12 @@
 	</tr>
 </table>
 
-\
-\
 
 **Contents**
 
-[1.Scope 4](#__RefHeading__3486_1617151515)
+[1 Scope 4](#2)
 
-[1Scope details: 4](#__RefHeading__3488_1617151515)
+[1.1 Scope details: 4](#3)
 
 [2.System Interface API 4](#__RefHeading__3490_1617151515)
 
@@ -266,7 +265,7 @@ the company who own the fleet.
 
 \
 
-1.  Scope {.western style="page-break-before: always"}
+#1.  Scope#
     =====
 
 Version 1.3 of this document covers a particular version of ATIONet’s
@@ -275,7 +274,7 @@ to a particular version of the protocol, some changes may apply which
 would be specifically commented and identified on each feature’s
 description paragraph.
 
-1.  Scope details: {.western}
+#1.1  Scope details:#
     --------------
 
 Protocol: ATIONet Native Interface API
