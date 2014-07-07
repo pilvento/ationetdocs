@@ -1,7 +1,12 @@
 ![ATIONET](C:\Users\fhart\Desktop\Logo.png)
 
+<br>
+
 ##ATIONet Native Interface API Protocol Specification##
 
+<br>
+<br>
+<br>
 
 <table>
 	<tr>
@@ -42,6 +47,9 @@
 		</td>
 	</tr>
 </table>
+
+<br>
+<br>
 
 <table>
 	<tr>
@@ -247,18 +255,11 @@ the company who own the fleet.
 ######Terminal.######
 Transaction capture device at the site.
 
-\
+<br>
+<br>
+<br>
 
-\
-\
-
-\
-\
-
-\
-
-####1.  Scope####
-    =====
+####1 Scope####
 
 Version 1.3 of this document covers a particular version of ATIONet’s
 Host protocol. Although feature’s descriptions are generally not related
@@ -266,16 +267,16 @@ to a particular version of the protocol, some changes may apply which
 would be specifically commented and identified on each feature’s
 description paragraph.
 
-#####1.1  Scope details:#####
-    --------------
+> #####1.1  Scope details:#####
 
-Protocol: ATIONet Native Interface API
+>>Protocol: ATIONet Native Interface API
 
-Version: Version 1.3
+>>Version: Version 1.3
 
-API URI: native.ationet.com/v1/interface\
-\
-\
+>>API URI: native.ationet.com/v1/interface\
+
+<br>
+<br>
 
 ####2.  System Interface API####
     ====================
