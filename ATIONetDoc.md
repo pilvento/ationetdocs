@@ -213,7 +213,8 @@ item.
 
 #####Definitions#####
 
-**Subscriber.** ATIONet’s subscription owner. The person or company who
+######Subscriber.######
+ATIONet’s subscription owner. The person or company who
 runs the service.
 
 **Homebase.** A type of ATIONet subscription where the subscriber owns
