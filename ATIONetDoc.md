@@ -42,87 +42,105 @@
 	</tr>
 </table>
 
-\
-\
-
-Change Log
-
-Ver.
-
-Date
-
-Change Summary
-
-1.0
-
-04/Jan/2013
-
-Initial version.
-
-General information\
-Actions: Statement Charges (partial)\
- Transactions Download
-
-1.1
-
-07/Jan/2013
-
-Statement Charges\
-- Added Action 902 Negative Balance transfer to a sub-account
-
-New group of actions: 941 – 950 Account Inquiries (partial)\
-Actions: 941 Sub-account Balance Enquiry\
- 942 Sub-account Limit Enquiry
-
-Transactions Downloads\
-- Consolidated Classification Fields for Vehicles and Drivers\
-- Reorganized Response record, moved Classification fields after Driver
-Fields.
-
-1.2
-
-30/10/2013
-
-Account Inquiries\
-- Added Action 943 Contract Balance Enquiry
-
-New group of actions: 951 – 959 Account Download (partial)\
-Actions: 951 Sub-Account Movements Download\
- 952 Contract Movements Download
-
-1.3
-
-05/07/2014
-
-**Statement Charges**\
-- Added Action 903 Transfer balance from sub-account to a sub-account
-
-- Added Action 904 Transfer balance from contract to a sub-account
-
-- Added Action 905 Transfer balance from sub-account to a contract
-
-- Change and reorganize request and response records
-
-**Transactions Downloads**\
-- Change and reorganize request and response records
-
-**Account Inquiries**\
-- Remove Action 943 Contract Balance Enquiry
-
-- Change and reorganize request and response records
-
-**Account Downloads**\
-- Remove Action 952 Contract Movements Download
-
-- Change Action 951 Sub-Account Movements Download to 951 Movements
-Download
-
-- Change and reorganize request and response records
-
-**Error Handling**
-
-- Include “ResponseError” in response record for actions intended to
-post a command
+<table>
+	<tr>
+		<td colspan="3">Change Log
+		</td>
+	</tr>
+	<tr>
+		<td>Ver.
+		</td>
+		<td>Date
+		</td>
+		<td>Change Summary
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="36" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western"><span lang="es-AR">1.0</span></p>
+		</td>
+		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western"><span lang="es-AR">04/Jan/2013</span></p>
+		</td>
+		<td width="404" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western" style="margin-bottom: 0.21cm">Initial version. 
+			</p>
+			<p class="western">General information	<br>Actions: Statement
+			Charges (partial)	<br>	 Transactions Download</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="36" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western"><span lang="es-AR">1.1</span></p>
+		</td>
+		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western"><span lang="es-AR">07/Jan/2013</span></p>
+		</td>
+		<td width="404" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western" style="margin-bottom: 0.21cm">Statement
+			Charges	<br>- Added Action 902 Negative Balance transfer to a
+			sub-account</p>
+			<p class="western" style="margin-bottom: 0.21cm">New group of
+			actions: 941 &ndash; 950 Account Inquiries (partial)	<br>Actions:
+			941 Sub-account Balance Enquiry	<br> 	 942 Sub-account Limit
+			Enquiry</p>
+			<p class="western">Transactions Downloads	<br>- Consolidated
+			Classification Fields for Vehicles and Drivers	 <br>- Reorganized
+			Response record, moved Classification fields after Driver Fields.</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="36" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">1.2</p>
+		</td>
+		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">30/10/2013</p>
+		</td>
+		<td width="404" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western" style="margin-bottom: 0.21cm">Account
+			Inquiries	<br>- Added Action 943 Contract Balance Enquiry</p>
+			<p class="western">New group of actions: 951 &ndash; 959 Account
+			Download (partial)	<br>Actions: 951 Sub-Account Movements
+			Download	<br> 	  952 Contract Movements Download</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="36" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">1.3</p>
+		</td>
+		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">05/07/2014</p>
+		</td>
+		<td width="404" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p style="margin-bottom: 0cm"><b>Statement Charges</b>	<br>- Added
+			Action 903 Transfer balance from sub-account to a sub-account</p>
+			<p style="margin-bottom: 0cm">- Added Action 904 Transfer balance
+			from contract to a sub-account</p>
+			<p style="margin-bottom: 0cm">- Added Action 905 Transfer balance
+			from sub-account to a contract</p>
+			<p class="western" style="margin-bottom: 0.21cm">- Change and
+			reorganize request and response records</p>
+			<p class="western" style="margin-bottom: 0.21cm"><b>Transactions
+			Downloads</b>	<br>- Change and reorganize request and response
+			records</p>
+			<p style="margin-bottom: 0cm"><b>Account Inquiries</b>	<br>-
+			Remove Action 943 Contract Balance Enquiry</p>
+			<p class="western" style="margin-bottom: 0.21cm">- Change and
+			reorganize request and response records</p>
+			<p style="margin-bottom: 0cm"><b>Account Downloads</b>	<br>-
+			Remove Action 952 Contract Movements Download</p>
+			<p style="margin-bottom: 0cm">- Change Action 951 Sub-Account
+			Movements Download to 951 Movements Download</p>
+			<p class="western" style="margin-bottom: 0.21cm">- Change and
+			reorganize request and response records</p>
+			<p style="margin-bottom: 0cm"><b>Error Handling</b></p>
+			<p class="western">- Include &ldquo;ResponseError&rdquo; in
+			response record for actions intended to post a command            
+			              
+			</p>
+		</td>
+	</tr>
+</table>
 
 \
 \
