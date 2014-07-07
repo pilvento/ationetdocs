@@ -1,34 +1,17 @@
- ATIONet Native Interface API Protocol Specification 
+![](C:\Users\fhart\Desktop\Logo.png)
 
-<table>
-	<tr>
-		<th>Tables</th>
-		<th>Are</th>
-		<th>Cool</th>
-	</tr>
-	<tr>
-		<td>col 3 is</td>
-		<td>sdfs</td>
-		<td>dfsdftd>
-	</tr>
-	<tr>
-		<td>col 3 is</td>
-		<td>sdfs</td>
-		<td>dfsdftd>
-	</tr>
-</table>
+ATIONet Native Interface API Protocol Specification
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+![](C:\Users\fhart\Desktop\Header.png)
+
+\
+\
 
 Document Information
 
 File:
 
-file
+ATIONet-Native\_Interface\_Protocol\_Spec-v1.3
 
 Doc Version:
 
@@ -36,7 +19,7 @@ Doc Version:
 
 Release Date:
 
-30, October 2013
+05, July 2014
 
 Author:
 
@@ -81,71 +64,116 @@ Fields.
 
 1.2
 
-\
+30/10/2013
 
-\
+Account Inquiries\
+- Added Action 943 Contract Balance Enquiry
+
+New group of actions: 951 – 959 Account Download (partial)\
+Actions: 951 Sub-Account Movements Download\
+ 952 Contract Movements Download
+
+1.3
+
+05/07/2014
+
+**Statement Charges**\
+- Added Action 903 Transfer balance from sub-account to a sub-account
+
+- Added Action 904 Transfer balance from contract to a sub-account
+
+- Added Action 905 Transfer balance from sub-account to a contract
+
+- Change and reorganize request and response records
+
+**Transactions Downloads**\
+- Change and reorganize request and response records
+
+**Account Inquiries**\
+- Remove Action 943 Contract Balance Enquiry
+
+- Change and reorganize request and response records
+
+**Account Downloads**\
+- Remove Action 952 Contract Movements Download
+
+- Change Action 951 Sub-Account Movements Download to 951 Movements
+Download
+
+- Change and reorganize request and response records
+
+**Error Handling**
+
+- Include “ResponseError” in response record for actions intended to
+post a command
 
 \
 \
 
 **Contents**
 
-[1.Scope 4](#__RefHeading__2823_1988951115)
+[1.Scope 4](#__RefHeading__3486_1617151515)
 
-[1Scope details: 4](#__RefHeading__2825_1988951115)
+[1Scope details: 4](#__RefHeading__3488_1617151515)
 
-[2.System Interface API 4](#__RefHeading__2827_1988951115)
+[2.System Interface API 4](#__RefHeading__3490_1617151515)
 
-[2Interface API Messages 4](#__RefHeading__2829_1988951115)
+[2Interface API Messages 4](#__RefHeading__3492_1617151515)
 
-[3.Data security 4](#__RefHeading__2831_1988951115)
+[3.Data security 4](#__RefHeading__3494_1617151515)
 
-[4.Message Structure 4](#__RefHeading__2833_1988951115)
+[4.Message Structure 4](#__RefHeading__3496_1617151515)
 
-[5.Error handling 5](#__RefHeading__2835_1988951115)
+[5.Error handling 5](#__RefHeading__3498_1617151515)
 
-[6.Statement Charges Interface 5](#__RefHeading__2837_1988951115)
+[6.Statement Charges Interface 5](#__RefHeading__3500_1617151515)
 
-[3Action Codes 5](#__RefHeading__2839_1988951115)
+[3Action Codes 6](#__RefHeading__3502_1617151515)
 
-[4Identification 6](#__RefHeading__2841_1988951115)
+[4Identification 6](#__RefHeading__3504_1617151515)
 
 [5Statement Charge (POST) – Body Section Record Format
-6](#__RefHeading__2843_1988951115)
+6](#__RefHeading__3506_1617151515)
 
-[7.Transactions Download Interface 6](#__RefHeading__2845_1988951115)
+[7.Transactions Download Interface 11](#__RefHeading__3508_1617151515)
 
-[6Action Codes 6](#__RefHeading__2847_1988951115)
+[6Action Codes 11](#__RefHeading__3510_1617151515)
 
 [7Transactions Download (POST) – Body Section Format Request
-7](#__RefHeading__2849_1988951115)
+11](#__RefHeading__3512_1617151515)
 
 [8Transactions Download (POST) – Body Section Format Response
-7](#__RefHeading__2851_1988951115)
+12](#__RefHeading__3514_1617151515)
 
-[8.Account Enquiries 20](#__RefHeading__2853_1988951115)
+[8.Account Enquiries 16](#__RefHeading__3516_1617151515)
 
-[9Action Codes 20](#__RefHeading__2855_1988951115)
+[9Action Codes 16](#__RefHeading__3518_1617151515)
 
-[10Identification 20](#__RefHeading__2857_1988951115)
+[10Identification 16](#__RefHeading__3520_1617151515)
 
 [11Account Enquiry (POST) – Body Section Record Format Request
-20](#__RefHeading__2859_1988951115)
+16](#__RefHeading__3522_1617151515)
 
 [12Account Enquiry (POST) – Body Section Record Format Response
-21](#__RefHeading__2861_1988951115)
+17](#__RefHeading__3524_1617151515)
 
-[9.Account Downloads 21](#__RefHeading__2863_1988951115)
+[9.Account Downloads 17](#__RefHeading__3526_1617151515)
 
-[13Action Codes 21](#__RefHeading__2865_1988951115)
+[13Action Codes 17](#__RefHeading__3528_1617151515)
 
-[14Identification 22](#__RefHeading__2867_1988951115)
+[14Account Download (POST) – Body Section Format Request
+18](#__RefHeading__3530_1617151515)
 
-[15Account Enquiry (POST) – Body Section Record Format Request
-22](#__RefHeading__2869_1988951115)
+[15Account Download (POST) – Body Section Format Response
+18](#__RefHeading__3532_1617151515)
 
-[16Account Enquiry (POST) – Body Section Record Format Response
-22](#__RefHeading__2871_1988951115)
+9\. Account Downloads 18
+
+9.1. Action Codes 18
+
+9.2. Account Enquiry (POST) – Body Section Record Format *Request* 18
+
+9.3. Account Enquiry (POST) – Body Section Record Format *Response* 19
 
 \
 \
@@ -181,12 +209,15 @@ Fleet Companies and retail or commercial sites to operate with its own
 method-of-payment. The Network company doesn’t own the site(s) or the
 vehicles.
 
-**Merchant**. On a Network type subscription, the Merchant is the
-company who own the sites.
-
 **Retail**. A type of ATIONet subscription where the subscriber owns the
 sites and enrolls Fleet Companies to operate with its own
 method-of-payment.
+
+**Merchant**. On a Network type subscription, the Merchant is the
+company who own the sites.
+
+**Company**. On a Network or Retail type subscription, the Company is
+the company who own the fleet.
 
 **Terminal**. **** Transaction capture device at the site.
 
@@ -203,7 +234,7 @@ method-of-payment.
 1.  Scope {.western style="page-break-before: always"}
     =====
 
-Version 1.0 of this document covers a particular version of ATIONet’s
+Version 1.3 of this document covers a particular version of ATIONet’s
 Host protocol. Although feature’s descriptions are generally not related
 to a particular version of the protocol, some changes may apply which
 would be specifically commented and identified on each feature’s
@@ -214,7 +245,7 @@ description paragraph.
 
 Protocol: ATIONet Native Interface API
 
-Version: Version 1.0
+Version: Version 1.3
 
 API URI: native.ationet.com/v1/interface\
 \
@@ -262,10 +293,32 @@ vehicle, given an action type indicated on the message body.
 Availability of this message and the type of actions allowed depend on
 the subscriber type and its contracting terms.
 
+901 - Balance transfer to a sub-account
+
+1.1
+
+\
+
+902 - Balance withdrawal from a sub-account
+
+\
+
+1.3
+
+901 - Balance transfer to a sub-account
+
+902 - Balance withdrawal from a sub-account
+
+903 - Transfer balance from sub-account to a sub-account
+
+904 - Transfer balance from contract to a sub-account
+
+905 - Transfer balance from sub-account to a contract
+
 Transactions Download\
 [HTTP POST]
 
-931 to 932
+931 to 940
 
 1.0
 
@@ -274,47 +327,78 @@ Transactions Download\
 Returns a list of completed transactions from ATIONet host, between two
 dates, for a given Subscriber, Merchant or fleet Company
 
+931 - Transactions Download
+
+932 - Transactions Download for Merchants
+
+1.1
+
+931 - Transactions Download
+
+932 - Transactions Download for Merchants
+
+\
+
+1.3
+
+931 - Transactions Download
+
+932 - Transactions Download for Merchants
+
 Account Enquiries\
 [HTTP POST]
 
-941 to 949
+941 to 950
 
-1.0
-
-\
-\
+1.1
 
 \
-\
 
-\
-\
+Returns specific values of a Contract or Sub-account.
 
-\
-\
+941 - Sub-account Balance Enquiry
 
-\
+942 - Sub-Account Limit Enquiry
+
 1.2
 
-Returns specific values of a Contract or Sub-account.\
-941 – Sub-Account Balance Enquiry\
-942 – Sub-Account Limit Enquiry\
-\
 \
 
-943 – Contract Balance Enquiry\
+943 - Contract Balance Enquiry
+
 \
+
+1.3
+
+941 - Sub-account Balance Enquiry
+
+942 - Sub-Account Limit Enquiry
+
+~~943 - Contract Balance Enquiry~~
 
 Account Downloads\
-[HTTP POST]\
-950
+[HTTP POST]
+
+951 to 960
 
 1.2
 
 \
 
-950 – Movements Download\
+951 - Sub-Account Movements Download
+
+952 - Contract Movements Download\
 \
+
+\
+
+1.3
+
+951 - Movements Download
+
+~~951 - Sub-Account Movements Download~~
+
+~~952 - Contract Movements Download~~
 
 3.  Data security {.western}
     =============
@@ -401,14 +485,15 @@ JSON-formatted list of records, enclosed in curly brackets “[…]”. An
 empty response will contain [] as body.
 
 Actions intended to post a command, for example the Statement Charges
-group will return a single JSON-formatted item with the “Response Code”
-and “Response Text”. The body of these responses will never be empty.
+group will return a single JSON-formatted item with the “ResponseCode”,
+“ResponseMessage” and “ResponseError” fields. The body of these
+responses will never be empty.
 
 \
 
 Failure to process the request will be indicated by an HTTP 400’s range
-status code. The body will contain a single JSON-formatted item with a
-“Response Code” and “Response Text”.
+status code. The body will contain a single JSON-formatted item with the
+“ResponseCode”, “ResponseMessage” and “ResponseError” fields.
 
 6.  Statement Charges Interface {.western}
     ===========================
@@ -449,10 +534,10 @@ Contract Balance must have enough funds (or product volume) to allow the
 transfer; otherwise the action will be rejected by the current accounts
 subsystem.
 
-Special behavior for ***Home-base*** subscribers
+Observations
 
-When the subscriber is a HomeBase, the action will first trigger a
-Deposit action on the Contract and the Contract to sub-account transfer.
+The action will first trigger a Deposit action on the Contract and the
+Contract to sub-account transfer.
 
 902
 
@@ -462,17 +547,58 @@ Balance withdrawal from a sub-account
 
 Function:
 
-Withdraws a given value from the global balance of the Contract to the
-sub-account related to the Vehicle or Driver.
+Withdraws a given value from the sub-account related to the Vehicle or
+Driver.
 
 Sub-account Balance must have enough funds (or product volume) to allow
 the withdrawal; otherwise the action will be rejected by the current
 accounts subsystem.
 
-Special behavior for ***Home-base*** subscribers
+903
 
-When the subscriber is a HomeBase, the action will reduce the balance of
-the sub-account but will not transfer the balance to the Contract.
+Title:
+
+Balance transfer from sub-account to sub-account
+
+Function:
+
+Transfers a given value from the original sub-account (related to the
+Original Vehicle or Driver) to the sub-account related to the Vehicle or
+Driver.
+
+Original sub-account balance must have enough funds (or product volume)
+to allow the transfer; otherwise the action will be rejected by the
+current accounts subsystem.
+
+904
+
+Title:
+
+Balance transfer from contract to sub-account
+
+Function:
+
+Transfers a given value from the contract to the sub-account related to
+the Vehicle or Driver.
+
+Contract balance must have enough funds (or product volume) to allow the
+transfer; otherwise the action will be rejected by the current accounts
+subsystem.
+
+905
+
+Title:
+
+Balance transfer from sub-account to contract
+
+Function:
+
+Transfers a given value from the sub-account related to the Vehicle or
+Driver to the contract.
+
+Sub-account Balance must have enough funds (or product volume) to allow
+the withdrawal; otherwise the action will be rejected by the current
+accounts subsystem.
 
 \
 \
@@ -481,11 +607,14 @@ the sub-account but will not transfer the balance to the Contract.
     --------------
 
 When a Statement Charge is received, ATIONet will try to identify the
-Company and the Identifier of the sub-account (Vehicle or Driver), this
-can be performed thru several combinations of the Identification Fields
-on the body of the message:
+Subscriber, the Species (Currency Code or Master Fuel Code) and the
+Identifier of the sub-account (Vehicle or Driver), this can be performed
+thru several combinations of the Identification Fields on the body of
+the message:
 
-1.  Identifier field only. Only accepted for Home-base subscriptions.
+1.  Any Identifier field (Identifier, Driver Code, Vehicle Code, Vehicle
+    Plate, SubAccount External Code and SubAccount Id) only. Only
+    accepted for Home-base subscriptions.
 
 2.  Company Code + Identifier.
 
@@ -528,7 +657,7 @@ See Action Code Section.
 
 CompanyCode
 
-20
+30
 
 A/N
 
@@ -548,7 +677,7 @@ See Identification section
 
 DriverCode
 
-20
+50
 
 A/N
 
@@ -558,7 +687,7 @@ See Identification section
 
 VehicleCode
 
-20
+50
 
 A/N
 
@@ -568,7 +697,27 @@ See Identification section
 
 VehiclePlate
 
-20
+50
+
+A/N
+
+Optional
+
+See Identification section
+
+SubAccountExternalCode
+
+50
+
+A/N
+
+Optional
+
+See Identification section
+
+SubAccountId
+
+36
 
 A/N
 
@@ -578,7 +727,7 @@ See Identification section
 
 Identifier
 
-20
+50
 
 A/N
 
@@ -589,9 +738,72 @@ mag card, RFID serial number, etc.)
 
 See Identification section
 
-MasterProductCode1
+DriverCodeOrigin
 
-4
+50
+
+A/N
+
+Optional
+
+See Identification section
+
+VehicleCodeOrigin
+
+50
+
+A/N
+
+Optional
+
+See Identification section
+
+VehiclePlateOrigin
+
+50
+
+A/N
+
+Optional
+
+See Identification section
+
+SubAccountExternalCodeOrigin
+
+50
+
+A/N
+
+Optional
+
+See Identification section
+
+SubAccountIdOrigin
+
+36
+
+A/N
+
+Optional
+
+See Identification section
+
+IdentifierOrigin
+
+50
+
+A/N
+
+Optional
+
+Public ID of the identification device (chipkey ID, account number on a
+mag card, RFID serial number, etc.)
+
+See Identification section
+
+MasterFuelCode
+
+50
 
 A/N
 
@@ -599,39 +811,35 @@ Conditional
 
 Required if Charge Volume is specified
 
-ChargeAmount
-
-10
-
-N
-
-Conditional
-
-Either Charge Amount or Charge Volume is required
-
-xxxxxxx.xx
-
-ChargeVolume
-
-10
-
-N
-
-Conditional
-
-Either Charge Amount or Charge Volume is required
-
-xxxxxxx.xx
-
 CurrencyCode
 
-3
+50
 
 A
 
 Conditional
 
 Required if Charge Amount is specified
+
+Amount
+
+10
+
+N
+
+Required
+
+Charge Amount or Charge Volume
+
+Description
+
+1000
+
+A/N
+
+Optional
+
+A description for the current account movement
 
 7.  Transactions Download Interface {.western}
     ===============================
@@ -682,7 +890,7 @@ Merchant Code (Optional, if included will act as a filter)
 
 Company Code (Optional, if included will act as a filter)
 
-Terminal Id (Optional, if included will act as a filter)
+Terminal Code(Optional, if included will act as a filter)
 
 Contract Code (Optional, if included will act as a filter)
 
@@ -706,7 +914,7 @@ Subscriber Code
 
 Merchant Code
 
-Terminal Id
+Terminal Code (Optional, if included will act as a filter)
 
 \
 \
@@ -746,7 +954,7 @@ See Action Codes section above
 
 MerchantCode
 
-20
+30
 
 A/N
 
@@ -756,7 +964,7 @@ See Action Codes section above
 
 CompanyCode
 
-20
+30
 
 A/N
 
@@ -774,9 +982,9 @@ Optional
 
 See Action Codes section above
 
-TerminalId
+TerminalCode
 
-8
+50
 
 A/N
 
@@ -786,7 +994,7 @@ See Action Codes section above
 
 DateFrom
 
-8
+19
 
 A/N
 
@@ -798,14 +1006,13 @@ From date to filter transactions
 
 DateTo
 
-8
+19
 
 A/N
 
 Optional
 
-To date to filter transactions, if not specified the ATIONet’s system
-date is used (ATIONET’s time-zone is UCT)
+To date to filter transactions
 
 “yyyy/MM/dd hh:mm:ss”
 
@@ -830,6 +1037,14 @@ A/N
 
 Transaction’s UID
 
+SubscriberCode
+
+3
+
+A/N
+
+Code of the subscriber who owns the transaction
+
 TransactionSequenceNumber
 
 50
@@ -841,7 +1056,7 @@ transaction counter. Site-based, might repeat from site to site.
 
 AuthorizationCode
 
-9
+50
 
 A/N
 
@@ -851,11 +1066,11 @@ ResponseCode
 
 5
 
-N
+A/N
 
 Host response code sent to the terminal
 
-ResponseText
+ResponseMessage
 
 50
 
@@ -865,7 +1080,15 @@ Host response text sent to the terminal
 
 Status
 
-\
+1
+
+N
+
+2- “Completed”, 3- “Confirmed”
+
+StatusDescription
+
+50
 
 A/N
 
@@ -887,34 +1110,61 @@ to differences between site’s and ATIONet sales totals.
 
 HostDateTime
 
-15
+19
 
 A/N
 
-ATIONet’s transaction datetime “yyyymmdd hhmmss”.
+ATIONet’s transaction datetime “yyyy/mm/dd hh:mm:ss”.
 
-ATIONet Host time is UCT
+ATIONet Host date time is UCT
 
-LocalTimeZone
+SubscriberDateTime
 
-6
-
-A/N
-
-Time zone code of the site (abbreviation)
-
-LocalTransactionDateTime
-
-13/15
+19
 
 A/N
 
-Site’s transaction date “yyyymmdd hhmmss” or “yymmdd hhmm” if the site’s
-controller does not include seconds precision.
+Subscriber transaction datetime “yyyy/mm/dd hh:mm:ss”.
+
+Subscriber date time is Subscriber TimeZone
+
+SubscriberTimeZone
+
+50
+
+A/N
+
+TimeZone code of the subscriber (abbreviation)
+
+SiteDateTime
+
+19
+
+A/N
+
+Site transaction datetime “yyyy/mm/dd hh:mm:ss”.
+
+Site date time is Site TimeZone
+
+SiteTimeZone
+
+50
+
+A/N
+
+TimeZone code of the site (abbreviation)
+
+DateTime
+
+19
+
+A/N
+
+Site’s transaction date “yyyy/mm/dd hh:mm:ss”.
 
 MerchantCode
 
-20
+30
 
 A/N
 
@@ -922,9 +1172,19 @@ Code of the company who owns the site
 
 N/A to Homebase subscribers
 
+MerchantName
+
+250
+
+A/N
+
+Name of the company who owns the site
+
+N/A to Homebase subscriber
+
 SiteCode
 
-20
+50
 
 A/N
 
@@ -940,7 +1200,7 @@ Name of the Site
 
 TerminalCode
 
-8
+50
 
 A/N
 
@@ -950,6 +1210,22 @@ A Terminal is the device or system that captures the transaction at the
 site, depending on the controller (system) type at the site, it may be
 the actual terminal (for example the specific OPT) or the whole system
 (several OPTs served by a single controller).
+
+SubAccountId
+
+36
+
+A/N
+
+SubAccount’s UID
+
+SubAccountExternalCode
+
+50
+
+A/N
+
+SubAccount’s external code
 
 AccountTypeDescription
 
@@ -1042,7 +1318,7 @@ Actual fueling amount (adjusted by the completion message). xxxxxxx.xx
 
 ProductUnitPrice
 
-7
+10
 
 N
 
@@ -1077,7 +1353,7 @@ Actual amount fueled. xxxxxxx.xx
 
 MeasurementUnitCode
 
-3
+50
 
 A/N
 
@@ -1086,23 +1362,32 @@ configuration.
 
 CurrencyCode
 
-3
+50
 
 A/N
 
 Currency of the amount fields, according to site’s configuration
 
-ProductCode
+FuelCode
 
-4
+50
 
 N
 
 Site’s product code
 
-MasterProductDescription
+FuelMasterCode
 
 50
+
+A/N
+
+Standardized product code. Helps to identify a fuel product category
+across multiple Merchant brands and site’s product codes
+
+FuelMasterDescription
+
+100
 
 A/N
 
@@ -1129,9 +1414,9 @@ ATIONet for information purposes only. May be empty
 
 ShiftNumber
 
-11
+50
 
-N
+A/N
 
 Shift (or Date+Shift) Identification. Informed by the site’s controller.
 Persisted on ATIONet for information purposes only. May be empty
@@ -1158,31 +1443,60 @@ N
 
 4 = AVI
 
-FuelUsage
-
-50
-
-A/N
-
-Fuel consumption as captured by the terminal at transaction time
-
-FuelTaxFlag
-
-50
-
-A/N
-
-Reserved
-
 CompanyCode
 
-20
+30
 
 A/N
 
 Company code
 
 Not meaningful for Homebase subscribers
+
+CompanyName
+
+250
+
+A/N
+
+Company name
+
+Not meaningful for Homebase subscribers
+
+ClassificationLabel1
+
+200
+
+A/N
+
+Classifications
+
+ATIONet allows for up to four user-defined classification field for
+Vehicles or Drivers.
+
+ClassificationLabel2
+
+200
+
+A/N
+
+\
+
+ClassificationLabel3
+
+200
+
+A/N
+
+\
+
+ClassificationLabel4
+
+200
+
+A/N
+
+\
 
 ContractCode
 
@@ -1194,9 +1508,37 @@ Contract code
 
 Not meaningful for Homebase subscribers
 
+SubContractCode
+
+50
+
+A/N
+
+SubContract code
+
+Not meaningful for Homebase subscribers
+
+PrimaryIdentificationLabel
+
+50
+
+A/N
+
+Public ID of the primary identification device (chipkey ID, account
+number on a mag card, RFID serial number, etc.)
+
+SecondaryIdentificationLabel
+
+50
+
+A/N
+
+Public ID of the secondary identification device (chipkey ID, account
+number on a mag card, RFID serial number, etc.)
+
 FleetCode
 
-20
+50
 
 A/N
 
@@ -1210,7 +1552,7 @@ A/N
 
 Fleet Name
 
-VehicleLicencePlate
+VehiclePlate
 
 50
 
@@ -1226,6 +1568,38 @@ A/N
 
 Vehicle Class
 
+VehicleClassificationValue1
+
+50
+
+A/N
+
+\
+
+VehicleClassificationValue2
+
+50
+
+A/N
+
+\
+
+VehicleClassificationValue3
+
+50
+
+A/N
+
+\
+
+VehicleClassificationValue4
+
+50
+
+A/N
+
+\
+
 DriverName
 
 100
@@ -1236,7 +1610,7 @@ Name of Driver
 
 DriverLicenceState
 
-5
+50
 
 A/N
 
@@ -1244,7 +1618,7 @@ Driver licence jurisdiction
 
 DriverLicenceNumber
 
-10
+50
 
 A/N
 
@@ -1252,24 +1626,13 @@ Driver licence
 
 DriverID
 
-10
+50
 
 N
 
 DriverID prompt result
 
-ClassificationLabel1
-
-200
-
-A/N
-
-Classifications
-
-ATIONet allows for up to four user-defined classification field for
-Vehicles or Drivers.
-
-ClassificationValue1
+DriverClassificationValue1
 
 50
 
@@ -1277,15 +1640,7 @@ A/N
 
 \
 
-ClassificationLabel2
-
-200
-
-A/N
-
-\
-
-ClassificationValue2
+DriverClassificationValue2
 
 50
 
@@ -1293,15 +1648,7 @@ A/N
 
 \
 
-ClassificationLabel3
-
-200
-
-A/N
-
-\
-
-ClassificationValue3
+DriverClassificationValue3
 
 50
 
@@ -1309,15 +1656,7 @@ A/N
 
 \
 
-ClassificationLabel4
-
-200
-
-A/N
-
-\
-
-ClassificationValue4
+DriverClassificationValue4
 
 50
 
@@ -1367,33 +1706,33 @@ Trailer hours prompt result
 
 TruckUnitNumber
 
-10
+50
 
-N
+A/N
 
 Truck Unit ID prompt result
 
 TrailerNumber
 
-10
+50
 
-N
+A/N
 
 Trailer ID prompt result
 
 TripNumber
 
-10
+50
 
-N
+A/N
 
 Trip/Guide/Route prompt result
 
 PurchaseOrderNumber
 
-10
+50
 
-N
+A/N
 
 PO prompt result
 
@@ -1438,34 +1777,6 @@ subsystem, without considering any other business rule that may apply to
 the Site, Vehicle and/or Driver, which may potentially impact on the
 amount or limit that would be authorized at transaction time.
 
-Thus, this message should not be used to obtain the authorization limit
-for a transaction. The Sub-Account Limit Enquiry (942) should be used
-instead.
-
-942
-
-Title:
-
-Sub-Account Limit Enquiry
-
-Function:
-
-This message tests a pre-authorization transaction based on submitted
-data and returns the authorization limits that such transaction would
-return.
-
-943
-
-Title:
-
-Contract Balance Enquiry
-
-Function:
-
-Retrieves the total Balance for a given Contract. Works with product or
-money based contracts. May return multiple product-volume pairs when the
-contract has multiple balance totals.
-
 \
 \
 
@@ -1477,14 +1788,16 @@ Company and the Identifier of the sub-account (Vehicle or Driver), this
 can be performed thru several combinations of the Identification Fields
 on the body of the message:
 
-1.  Identifier field only. Only accepted for Home-base subscriptions.
+1.  Any Identifier field (Identifier, Driver Code, Vehicle Code, Vehicle
+    Plate, SubAccount External Code and SubAccount Id) only. Only
+    accepted for Home-base subscriptions.
 
 2.  Company Code + Identifier.
 
 3.  Company Code + Contract Code + (Driver Code or Vehicle Code or
     Vehicle Plate)
 
-11. Account Enquiry (POST) – Body Section Record Format *Request* {.western}
+1.  Account Enquiry (POST) – Body Section Record Format *Request* {.western}
     -------------------------------------------------------------
 
     Field Name
@@ -1520,7 +1833,7 @@ on the body of the message:
 
     CompanyCode
 
-    20
+    30
 
     A/N
 
@@ -1540,7 +1853,7 @@ on the body of the message:
 
     DriverCode
 
-    20
+    50
 
     A/N
 
@@ -1550,7 +1863,7 @@ on the body of the message:
 
     VehicleCode
 
-    20
+    50
 
     A/N
 
@@ -1560,7 +1873,27 @@ on the body of the message:
 
     VehiclePlate
 
-    20
+    50
+
+    A/N
+
+    Optional
+
+    See Identification section
+
+    SubAccountExternalCode
+
+    50
+
+    A/N
+
+    Optional
+
+    See Identification section
+
+    SubAccountId
+
+    36
 
     A/N
 
@@ -1570,7 +1903,7 @@ on the body of the message:
 
     Identifier
 
-    20
+    50
 
     A/N
 
@@ -1581,51 +1914,7 @@ on the body of the message:
 
     See Identification section
 
-    ProductCode
-
-    4
-
-    A/N
-
-    Conditional
-
-    Required if Charge Volume is specified
-
-    ChargeAmount
-
-    10
-
-    N
-
-    Conditional
-
-    Either Charge Amount or Charge Volume is required
-
-    xxxxxxx.xx
-
-    ChargeVolume
-
-    10
-
-    N
-
-    Conditional
-
-    Either Charge Amount or Charge Volume is required
-
-    xxxxxxx.xx
-
-    CurrencyCode
-
-    3
-
-    A
-
-    Conditional
-
-    Required if Charge Amount is specified
-
-12. Account Enquiry (POST) – Body Section Record Format *Response* {.western}
+2.  Account Enquiry (POST) – Body Section Record Format *Response* {.western}
     --------------------------------------------------------------
 
 Field Name
@@ -1646,11 +1935,19 @@ Fixed. To be assigned by ATIONet
 
 CompanyCode
 
-20
+30
 
 A/N
 
 Company identification. Should be ignored on Homebase subscribers.
+
+CompanyName
+
+250
+
+A/N
+
+Company name. Should be ignored on Homebase subscribers.
 
 ContractCode
 
@@ -1660,9 +1957,35 @@ A/N
 
 Contract identification. Should be ignored on Homebase subscribers.
 
+SubContractCode
+
+50
+
+A/N
+
+SubContract code
+
+Not meaningful for Homebase subscribers
+
+SubAccountId
+
+36
+
+A/N
+
+SubAccount’s UID
+
+SubAccountExternalCode
+
+50
+
+A/N
+
+SubAccount’s external code
+
 DriverCode
 
-20
+50
 
 A/N
 
@@ -1670,7 +1993,7 @@ See Identification section
 
 VehicleCode
 
-20
+50
 
 A/N
 
@@ -1678,7 +2001,7 @@ See Identification section
 
 VehiclePlate
 
-20
+50
 
 A/N
 
@@ -1686,307 +2009,108 @@ See Identification section
 
 Identifier
 
-20
+250
 
 A/N
 
-Public ID of the identification device (chipkey ID, account number on a
-mag card, RFID serial number, etc.)
+Identifications related to subaccount
 
-See Identification section
+FuelMasterCode
 
-ProductCode1
-
-4
+50
 
 A/N
 
-Master Product Code. Empty if contract is money based.
+Standardized product code. Helps to identify a fuel product category
+across multiple Merchant brands and site’s product codes
 
-ProductVolume1
+FuelMasterDescription
 
-10
-
-N
-
-Volume balance for Product 1. Empty if contract is money based.
-
-xxxxxxx.xx
-
-ProductCode2
-
-4
+100
 
 A/N
 
-Master Product Code. Empty if contract is money based or there is only
-one product configured for that Vehicle or Driver
-
-ProductVolume2
-
-10
-
-N
-
-Volume balance for Product 2. Empty if contract is money based or there
-is only one product configured for that Vehicle or Driver.
-
-xxxxxxx.xx
-
-ProductCode3
-
-4
-
-A/N
-
-Master Product Code. Empty if contract is money based or there are less
-than three products configured for that Vehicle or Driver.
-
-ProductVolume2
-
-10
-
-N
-
-Volume balance for Product 2. Empty if contract is money based or there
-are less than three products configured for that Vehicle or Driver.
-
-xxxxxxx.xx
+Standardized product description. Helps to identify a fuel product
+category across multiple Merchant brands and site’s product codes
 
 CurrencyCode
 
-3
+50
 
 A
 
 Currency configured for the Contract
 
-MoneyBalance
+Amount
 
-3
+10
 
 N
 
-Amount balance for the sub-account. Empty if the account is
-product-based.
+Amount balance for the sub-account.
 
 xxxxxxx.xx
-
-\
-\
 
 9.  Account Downloads {.western}
     =================
 
-The Account Downloads messages retrieve data from ATIONet, specific to a
-Contract or Sub-Account (Vehicle or Driver types).
+The Account Download messages are POST actions to recover all the
+currents accounts movements processed by ATIONet for a given Company
+Code depending on the particular Action Code.
 
-Depending on the type of enquiry, this message might be used by one or
-the other party of the contract (the subscriber or the fleet company).
+The Action Code is validated against the type of company of the
+authenticated user. Request not passing this validation will be
+rejected.
+
+The download will be limited by dates (from and to), which must be
+included in the request
 
 13. Action Codes {.western}
     ------------
 
-The Action Code specifies the type of enquiry requested. The submitted
-code must match one of the pre-defined operation types. Not all
-operation types are available for all subscribers and/or fleet
-companies; availability depends on subscription types but also on
-contract terms with ATIONet.
+The Action Code specifies the type of record transaction to be
+retrieved; this differentiation is based on the different roles on an
+ATIONet operation (Fleet Company, Merchant, Network, Home-base), which
+also mandates different ways to identify the requester and scope of
+transactions to download.
 
 Action Code
 
 Description
 
-944
+951
 
 Title:
 
-Sub-Account Movements Download
+Movements Download
 
 Function:
 
-Retrieves a list of movements from the Current Accounts sub-system for a
-given Sub-account (Vehicle or Driver types) according to a specified
-filter.
+Download complete current account movements records
 
-945
+Allowed for:
 
-Title:
+Subscribers and Fleet Companies
 
-Contract Movements Download
+Identification:
 
-Function:
+Subscriber Code
 
-Retrieves a list of movements from the Current Accounts sub-system for a
-given Contract according to a specified filter.
+Company Code (Optional, if included will act as a filter)
 
 \
 \
 
-14. Identification {.western}
-    --------------
-
-When an Account Enquiry is received, ATIONet will try to identify the
-Company and the Identifier of the sub-account (Vehicle or Driver), this
-can be performed thru several combinations of the Identification Fields
-on the body of the message:
-
-4.  Identifier field only. Only accepted for Home-base subscriptions.
-
-5.  Company Code + Identifier.
-
-6.  Company Code + Contract Code + (Driver Code or Vehicle Code or
-    Vehicle Plate)
-
-15. Account Enquiry (POST) – Body Section Record Format *Request* {.western}
-    -------------------------------------------------------------
-
-    Field Name
-
-    Size
-
-    Type
-
-    Condition
-
-    Descriptions/Field Value(s)
-
-    SubscriberCode
-
-    3
-
-    A/N
-
-    Required
-
-    Fixed. To be assigned by ATIONet
-
-    ActionCode
-
-    3
-
-    N
-
-    Required
-
-    Operation type code.\
-    See Action Code Section.
-
-    CompanyCode
-
-    20
-
-    A/N
-
-    Optional
-
-    See Identification section
-
-    ContractCode
-
-    20
-
-    A/N
-
-    Optional
-
-    See Identification section
-
-    DriverCode
-
-    20
-
-    A/N
-
-    Optional
-
-    See Identification section
-
-    VehicleCode
-
-    20
-
-    A/N
-
-    Optional
-
-    See Identification section
-
-    VehiclePlate
-
-    20
-
-    A/N
-
-    Optional
-
-    See Identification section
-
-    Identifier
-
-    20
-
-    A/N
-
-    Optional
-
-    Public ID of the identification device (chipkey ID, account number
-    on a mag card, RFID serial number, etc.)
-
-    See Identification section
-
-    ProductCode
-
-    4
-
-    A/N
-
-    Conditional
-
-    Required if Charge Volume is specified
-
-    ChargeAmount
-
-    10
-
-    N
-
-    Conditional
-
-    Either Charge Amount or Charge Volume is required
-
-    xxxxxxx.xx
-
-    ChargeVolume
-
-    10
-
-    N
-
-    Conditional
-
-    Either Charge Amount or Charge Volume is required
-
-    xxxxxxx.xx
-
-    CurrencyCode
-
-    3
-
-    A
-
-    Conditional
-
-    Required if Charge Amount is specified
-
-16. Account Enquiry (POST) – Body Section Record Format *Response* {.western}
-    --------------------------------------------------------------
+14. Account Download (POST) – Body Section Format *Request* {.western}
+    -------------------------------------------------------
 
 Field Name
 
 Size
 
 Type
+
+Condition
 
 Descriptions/Field Value(s)
 
@@ -1996,15 +2120,194 @@ SubscriberCode
 
 A/N
 
+Required
+
 Fixed. To be assigned by ATIONet
+
+ActionCode
+
+3
+
+N
+
+Required
+
+See Action Codes section above
 
 CompanyCode
 
-20
+30
 
 A/N
 
-Company identification. Should be ignored on Homebase subscribers.
+Conditional
+
+See Action Codes section above
+
+DateFrom
+
+19
+
+A/N
+
+Required
+
+From date to filter movements
+
+“yyyy/MM/dd hh:mm:ss”
+
+DateTo
+
+19
+
+A/N
+
+Optional
+
+To date to filter movements
+
+“yyyy/MM/dd hh:mm:ss”
+
+\
+
+15. Account Download (POST) – Body Section Format *Response* {.western}
+    --------------------------------------------------------
+
+Field Name
+
+Size
+
+Type
+
+Descriptions/Field Value(s)
+
+Id
+
+36
+
+A/N
+
+Current account’s UID
+
+MovementId
+
+36
+
+A/N
+
+Movements’s UID
+
+SubscriberCode
+
+3
+
+A/N
+
+Code of the subscriber who owns the transaction
+
+HostDateTime
+
+19
+
+A/N
+
+ATIONet’s transaction date time “yyyy/mm/dd hh:mm:ss”.
+
+ATIONet Host date time is UCT
+
+DateTime
+
+19
+
+A/N
+
+movement date expressed in subscriber time zone
+
+“yyyy/mm/dd hh:mm:ss”.
+
+SubscriberTimeZone
+
+50
+
+A/N
+
+TimeZone code of the subscriber (abbreviation)
+
+Type
+
+1
+
+N
+
+Internal ATIOnet movement type code
+
+TypeDescription
+
+50
+
+A/N
+
+Movement type description
+
+Origin
+
+1
+
+N
+
+Internal ATIOnet code for the origin of the movement
+
+OriginDescription
+
+50
+
+A/N
+
+Description for the origin of the movement
+
+Description
+
+1000
+
+A/N
+
+Movement description
+
+SubAccountId
+
+36
+
+A/N
+
+SubAccount’s UID
+
+SubAccountExternalCode
+
+50
+
+A/N
+
+SubAccount’s external code
+
+CompanyCode
+
+30
+
+A/N
+
+Company code
+
+Not meaningful for Homebase subscribers
+
+CompanyName
+
+250
+
+A/N
+
+Company name
+
+Not meaningful for Homebase subscribers
 
 ContractCode
 
@@ -2012,117 +2315,63 @@ ContractCode
 
 A/N
 
-Contract identification. Should be ignored on Homebase subscribers.
+Contract code
 
-DriverCode
+Not meaningful for Homebase subscribers
 
-20
+SubContractCode
 
-A/N
-
-See Identification section
-
-VehicleCode
-
-20
+50
 
 A/N
 
-See Identification section
+SubContract code
 
-VehiclePlate
+Not meaningful for Homebase subscribers
 
-20
+IsDebit
 
-A/N
-
-See Identification section
-
-Identifier
-
-20
-
-A/N
-
-Public ID of the identification device (chipkey ID, account number on a
-mag card, RFID serial number, etc.)
-
-See Identification section
-
-ProductCode1
-
-4
-
-A/N
-
-Master Product Code. Empty if contract is money based.
-
-ProductVolume1
-
-10
+1
 
 N
 
-Volume balance for Product 1. Empty if contract is money based.
+Indicates that’s a debit or credit movement
 
-xxxxxxx.xx
+1 = “True”, 2= “False”
 
-ProductCode2
+FuelMasterCode
 
-4
-
-A/N
-
-Master Product Code. Empty if contract is money based or there is only
-one product configured for that Vehicle or Driver
-
-ProductVolume2
-
-10
-
-N
-
-Volume balance for Product 2. Empty if contract is money based or there
-is only one product configured for that Vehicle or Driver.
-
-xxxxxxx.xx
-
-ProductCode3
-
-4
+50
 
 A/N
 
-Master Product Code. Empty if contract is money based or there are less
-than three products configured for that Vehicle or Driver.
+Standardized product code. Helps to identify a fuel product category
+across multiple Merchant brands and site’s product codes
 
-ProductVolume2
+FuelMasterDescription
 
-10
+100
 
-N
+A/N
 
-Volume balance for Product 2. Empty if contract is money based or there
-are less than three products configured for that Vehicle or Driver.
-
-xxxxxxx.xx
+Standardized product description. Helps to identify a fuel product
+category across multiple Merchant brands and site’s product codes
 
 CurrencyCode
 
-3
+50
 
-A
+A/N
 
-Currency configured for the Contract
+Currency of the amount fields
 
-MoneyBalance
+Amount
 
-3
+10
 
 N
 
-Amount balance for the sub-account. Empty if the account is
-product-based.
+Amount balance for the sub-account.
 
 xxxxxxx.xx
 
