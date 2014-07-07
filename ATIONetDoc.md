@@ -146,9 +146,9 @@
 
 **Contents**
 
-[1 Scope 4](#2)
+[1 Scope 4](#1--scope)
 
-[1.1 Scope details: 4](#3)
+[1.1 Scope details: 4](#11--scope-details)
 
 [2.System Interface API 4](#__RefHeading__3490_1617151515)
 
