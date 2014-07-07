@@ -293,30 +293,32 @@ subscriber.
 
 <table>
 	<thead>
-		<tr valign="top">
-			<td width="140" bgcolor="#bfbfbf" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left"><b>Name</b></p>
+		<tr valign="center">
+			<td rowspan="2" align="left"><b>Name</b>
 			</td>
-			<td colspan="2" width="83" bgcolor="#bfbfbf" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><b>Protocol Ver.<br></b><font size="2" style="font-size: 9pt"><b>Initial
-				   Change</b></font></p>
+			<td colspan="2" align="center"><b>Protocol Ver.</b>
 			</td>
-			<td width="275" bgcolor="#bfbfbf" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left"><b>Description</b></p>
+			<td  rowspan="2" align="left"><b>Description</b>
 			</td>
 		</tr>
+  <tr valign="top">
+    <td align="center"><b>Initial</b> 
+    </td>
+    <td align="center"><b>Change</b>
+    </td>
+  </tr>
 	</thead>
 	<tbody>
 		<tr valign="top">
-			<td rowspan="3" width="140" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td rowspan="3"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">Statement
 				charges [HTTP POST]</p>
 				<p class="western" align="left">901 to 920</p>
 			</td>
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.0</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center" style="margin-bottom: 0.21cm"><br><br>
 				</p>
 				<p class="western" align="center" style="margin-bottom: 0.21cm"><br><br>
@@ -324,7 +326,7 @@ subscriber.
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">Commands
 				ATIONet to process a movement on the account of a driver or
 				vehicle, given an action type indicated on the message body. 
@@ -337,27 +339,27 @@ subscriber.
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.1</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left">902 - Balance withdrawal from a
 				sub-account</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.3</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">901
 				- Balance transfer to a sub-account</p>
 				<p class="western" align="left" style="margin-bottom: 0.21cm">902
@@ -371,19 +373,19 @@ subscriber.
 			</td>
 		</tr>
 		<tr valign="top">
-			<td rowspan="3" width="140" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td rowspan="3"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">Transactions
 				Download<br>[HTTP POST]</p>
 				<p class="western" align="left">931 to 940</p>
 			</td>
-			<td rowspan="2" width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td rowspan="2"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.0</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">Returns
 				a list of completed transactions from ATIONet host, between two
 				dates, for a given Subscriber, Merchant or fleet Company</p>
@@ -394,10 +396,10 @@ subscriber.
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.1</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">931
 				- Transactions Download</p>
 				<p class="western" align="left">932 - Transactions Download for
@@ -405,14 +407,14 @@ subscriber.
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.3</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">931
 				- Transactions Download</p>
 				<p class="western" align="left">932 - Transactions Download for
@@ -420,19 +422,19 @@ subscriber.
 			</td>
 		</tr>
 		<tr valign="top">
-			<td rowspan="3" width="140" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td rowspan="3"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">Account
 				Enquiries<br>[HTTP POST]</p>
 				<p class="western" align="left">941 to 950</p>
 			</td>
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.1</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">Returns
 				specific values of a Contract or Sub-account.</p>
 				<p class="western" align="left" style="margin-bottom: 0.21cm">941
@@ -441,26 +443,26 @@ subscriber.
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.2</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left">943 - Contract Balance Enquiry</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.3</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">941
 				- Sub-account Balance Enquiry	</p>
 				<p class="western" align="left" style="margin-bottom: 0.21cm">942
@@ -470,19 +472,19 @@ subscriber.
 			</td>
 		</tr>
 		<tr valign="top">
-			<td rowspan="2" width="140" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td rowspan="2"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">Account
 				Downloads<br>[HTTP POST]</p>
 				<p class="western" align="left">951 to 960</p>
 			</td>
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.2</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">951
 				- Sub-Account Movements Download 
 				</p>
@@ -492,14 +494,14 @@ subscriber.
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="33" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center"><br>
 				</p>
 			</td>
-			<td width="36" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="center">1.3</p>
 			</td>
-			<td width="275" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
 				<p class="western" align="left" style="margin-bottom: 0.21cm">951
 				- Movements Download 
 				</p>
@@ -514,8 +516,7 @@ subscriber.
 	</tbody>
 </table>
 
-####3.  Data security####
-    =============
+####3 Data security####
 
 The Interface API requires an SSL connection between both parties. The
 SSL connection is established for each request/response pair, using a
@@ -533,8 +534,7 @@ At this time there is no provisioning to distribute or update
 certificates or thumbprint thru a system interface. This information
 will be provided at request of the Subscriber.
 
-4.  Message Structure {.western}
-    =================
+####4 Message Structure####
 
 All Interface API messages share the same structure, what change from
 message to message are the Action Code, which indicates the actual
@@ -546,27 +546,26 @@ Both, requests and responses use a JSON format.
 Only one request is accepted on each message, although some requests and
 many responses will contain multiple records.
 
-#### Request Format {.western}
+#####Request Format#####
 
-###### Header: {.western}
+*Header:*
 
 Accept-Encoding: gzip
 
 Authorization: Basic user:password
 
-###### Body: {.western}
+*Body:*
 
 {“ActionCode”:”nnn”,”FieldName”:”StringValue”,”FieldName”:Value}
 
 \
 
-#### Response {.western}
+#####Response#####
 
-###### Header: {.western}
-
+*Header:*
 Content-Type: application/json; charset=utf-8
 
-###### Body: {.western}
+*Body:*
 
 [{“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value},\
 {“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value}]
