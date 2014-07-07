@@ -195,8 +195,10 @@
 
 >[9.3 Account Download (POST) – Body Section Format Response](#__RefHeading__3532_1617151515)
 
-\
-\
+
+	
+	
+	
 
 ####Overview####
 
@@ -217,25 +219,31 @@ item.
 ATIONet’s subscription owner. The person or company who
 runs the service.
 
-**Homebase.** A type of ATIONet subscription where the subscriber owns
+######Homebase.######
+A type of ATIONet subscription where the subscriber owns
 the site(s) but also the fleet(s) of vehicles.
 
-**Network.** A type of ATIONet subscription where the subscriber enrolls
+######Network.######
+A type of ATIONet subscription where the subscriber enrolls
 Fleet Companies and retail or commercial sites to operate with its own
 method-of-payment. The Network company doesn’t own the site(s) or the
 vehicles.
 
-**Retail.** A type of ATIONet subscription where the subscriber owns the
+######Retail.######
+A type of ATIONet subscription where the subscriber owns the
 sites and enrolls Fleet Companies to operate with its own
 method-of-payment.
 
-**Merchant.** On a Network type subscription, the Merchant is the
+######Merchant.######
+On a Network type subscription, the Merchant is the
 company who own the sites.
 
-**Company.** On a Network or Retail type subscription, the Company is
+######Company.######
+On a Network or Retail type subscription, the Company is
 the company who own the fleet.
 
-**Terminal.** Transaction capture device at the site.
+######Terminal.######
+Transaction capture device at the site.
 
 \
 
