@@ -147,75 +147,55 @@
 
 **Contents**
 
-[1 Scope 4](#1--scope)
+[1 Scope](#1--scope)
 
-[1.1 Scope details: 4](#11--scope-details)
+[1.1 Scope details](#11--scope-details)
 
-[2.System Interface API 4](#__RefHeading__3490_1617151515)
+[2 System Interface API](#__RefHeading__3490_1617151515)
 
-[2Interface API Messages 4](#__RefHeading__3492_1617151515)
+[2.1 Interface API Messages](#__RefHeading__3492_1617151515)
 
-[3.Data security 4](#__RefHeading__3494_1617151515)
+[3 Data security](#__RefHeading__3494_1617151515)
 
-[4.Message Structure 4](#__RefHeading__3496_1617151515)
+[4 Message Structure](#__RefHeading__3496_1617151515)
 
-[5.Error handling 5](#__RefHeading__3498_1617151515)
+[5 Error handling](#__RefHeading__3498_1617151515)
 
-[6.Statement Charges Interface 5](#__RefHeading__3500_1617151515)
+[6 Statement Charges Interface](#__RefHeading__3500_1617151515)
 
-[3Action Codes 6](#__RefHeading__3502_1617151515)
+[6.1 Action Codes](#__RefHeading__3502_1617151515)
 
-[4Identification 6](#__RefHeading__3504_1617151515)
+[6.2 Identification](#__RefHeading__3504_1617151515)
 
-[5Statement Charge (POST) – Body Section Record Format
-6](#__RefHeading__3506_1617151515)
+[6.3 Statement Charge (POST) – Body Section Record Format](#__RefHeading__3506_1617151515)
 
-[7.Transactions Download Interface 11](#__RefHeading__3508_1617151515)
+[7 Transactions Download Interface](#__RefHeading__3508_1617151515)
 
-[6Action Codes 11](#__RefHeading__3510_1617151515)
+[7.1 Action Codes](#__RefHeading__3510_1617151515)
 
-[7Transactions Download (POST) – Body Section Format Request
-11](#__RefHeading__3512_1617151515)
+[7.2 Transactions Download (POST) – Body Section Format Request](#__RefHeading__3512_1617151515)
 
-[8Transactions Download (POST) – Body Section Format Response
-12](#__RefHeading__3514_1617151515)
+[7.3 Transactions Download (POST) – Body Section Format Response](#__RefHeading__3514_1617151515)
 
-[8.Account Enquiries 16](#__RefHeading__3516_1617151515)
+[8 Account Enquiries](#__RefHeading__3516_1617151515)
 
-[9Action Codes 16](#__RefHeading__3518_1617151515)
+[8.1 Action Codes](#__RefHeading__3518_1617151515)
 
-[10Identification 16](#__RefHeading__3520_1617151515)
+[8.2 Identification](#__RefHeading__3520_1617151515)
 
-[11Account Enquiry (POST) – Body Section Record Format Request
-16](#__RefHeading__3522_1617151515)
+[8.3 Account Enquiry (POST) – Body Section Record Format Request](#__RefHeading__3522_1617151515)
 
-[12Account Enquiry (POST) – Body Section Record Format Response
-17](#__RefHeading__3524_1617151515)
+[8.4 Account Enquiry (POST) – Body Section Record Format Response](#__RefHeading__3524_1617151515)
 
-[9.Account Downloads 17](#__RefHeading__3526_1617151515)
+[9 Account Downloads](#__RefHeading__3526_1617151515)
 
-[13Action Codes 17](#__RefHeading__3528_1617151515)
+[9.1 Action Codes](#__RefHeading__3528_1617151515)
 
-[14Account Download (POST) – Body Section Format Request
-18](#__RefHeading__3530_1617151515)
+[9.2 Account Download (POST) – Body Section Format Request](#__RefHeading__3530_1617151515)
 
-[15Account Download (POST) – Body Section Format Response
-18](#__RefHeading__3532_1617151515)
-
-9\. Account Downloads 18
-
-9.1. Action Codes 18
-
-9.2. Account Enquiry (POST) – Body Section Record Format *Request* 18
-
-9.3. Account Enquiry (POST) – Body Section Record Format *Response* 19
+[9.3 Account Download (POST) – Body Section Format Response](#__RefHeading__3532_1617151515)
 
 \
-\
-
-\
-\
-
 \
 
 **Overview**
