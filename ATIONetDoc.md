@@ -291,11 +291,7 @@ subscriber.
 
 #####2.1 Interface API Messages#####
 
-<table width="542" cellpadding="7" cellspacing="0">
-	<col width="140">
-	<col width="33">
-	<col width="36">
-	<col width="275">
+<table>
 	<thead>
 		<tr valign="top">
 			<td width="140" bgcolor="#bfbfbf" style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
