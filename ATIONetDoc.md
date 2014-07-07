@@ -1,12 +1,6 @@
 ![ATIONET](C:\Users\fhart\Desktop\Logo.png)
 
-<br>
-
 ##ATIONet Native Interface API Protocol Specification##
-
-<br>
-<br>
-<br>
 
 <table>
 	<tr>
@@ -47,9 +41,6 @@
 		</td>
 	</tr>
 </table>
-
-<br>
-<br>
 
 <table>
 	<tr>
@@ -152,10 +143,6 @@
 	</tr>
 </table>
 
-<br>
-<br>
-<br>
-
 **Contents**
 
 [1 Scope](#1--scope)
@@ -206,10 +193,6 @@
 
 >[9.3 Account Download (POST) – Body Section Format Response](#__RefHeading__3532_1617151515)
 
-<br>
-<br>
-<br>
-
 ####Overview####
 
 #####Introduction#####
@@ -255,10 +238,6 @@ the company who own the fleet.
 ######Terminal.######
 Transaction capture device at the site.
 
-<br>
-<br>
-<br>
-
 ####1 Scope####
 
 Version 1.3 of this document covers a particular version of ATIONet’s
@@ -274,9 +253,6 @@ Protocol: ATIONet Native Interface API
 Version: Version 1.3
 
 API URI: native.ationet.com/v1/interface\
-
-<br>
-<br>
 
 ####2 System Interface API####
 
@@ -516,9 +492,6 @@ subscriber.
 	</tbody>
 </table>
 
-<br>
-<br>
-
 ####3 Data security####
 
 The Interface API requires an SSL connection between both parties. The
@@ -536,9 +509,6 @@ authorized users via ATIONet Console, with the role “Interface API”.
 At this time there is no provisioning to distribute or update
 certificates or thumbprint thru a system interface. This information
 will be provided at request of the Subscriber.
-
-<br>
-<br>
 
 ####4 Message Structure####
 
@@ -584,9 +554,6 @@ below show the maximum possible length as the Size, although in
 JSON-formatted strings they will be represented with trailing spaces
 trimmed.
 
-<br>
-<br>
-
 ####5 Error handling#####
 
 Success/failure exits on the Interface API will be handled via HTTP
@@ -610,9 +577,6 @@ Failure to process the request will be indicated by an HTTP 400’s range
 status code. The body will contain a single JSON-formatted item with the
 “ResponseCode”, “ResponseMessage” and “ResponseError” fields.
 
-<br>
-<br>
-
 ####6 Statement Charges Interface####
 
 The Statement Charge message sends an instruction to ATIONet to apply a
@@ -631,90 +595,144 @@ pre-defined operation types. Not all operation types are available for
 all subscribers and/or fleet companies, availability depends on
 subscription types but also on contract terms with ATIONet.
 
-Action Code
-
-Description
-
-901
-
-Title:
-
-Balance transfer to a sub-account
-
-Function:
-
-Transfers a given value from the global balance of the Contract to the
-sub-account related to the Vehicle or Driver.
-
-Contract Balance must have enough funds (or product volume) to allow the
-transfer; otherwise the action will be rejected by the current accounts
-subsystem.
-
-Observations
-
-The action will first trigger a Deposit action on the Contract and the
-Contract to sub-account transfer.
-
-902
-
-Title:
-
-Balance withdrawal from a sub-account
-
-Function:
-
-Withdraws a given value from the sub-account related to the Vehicle or
-Driver.
-
-Sub-account Balance must have enough funds (or product volume) to allow
-the withdrawal; otherwise the action will be rejected by the current
-accounts subsystem.
-
-903
-
-Title:
-
-Balance transfer from sub-account to sub-account
-
-Function:
-
-Transfers a given value from the original sub-account (related to the
-Original Vehicle or Driver) to the sub-account related to the Vehicle or
-Driver.
-
-Original sub-account balance must have enough funds (or product volume)
-to allow the transfer; otherwise the action will be rejected by the
-current accounts subsystem.
-
-904
-
-Title:
-
-Balance transfer from contract to sub-account
-
-Function:
-
-Transfers a given value from the contract to the sub-account related to
-the Vehicle or Driver.
-
-Contract balance must have enough funds (or product volume) to allow the
-transfer; otherwise the action will be rejected by the current accounts
-subsystem.
-
-905
-
-Title:
-
-Balance transfer from sub-account to contract
-
-Function:
-
-Transfers a given value from the sub-account related to the Vehicle or
-Driver to the contract.
-
-Sub-account Balance must have enough funds (or product volume) to allow
-the withdrawal; otherwise the action will be rejected by the current
-accounts subsystem.
+<table>
+	<tr valign="top">
+		<td align="left">Action Code
+		</td>
+		<td colspan="2" align="left">Description
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="3" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">901</p>
+		</td>
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Title:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Balance transfer to a sub-account</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Function:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western" style="margin-bottom: 0.21cm">Transfers a given
+			value from the global balance of the Contract to the sub-account
+			related to the Vehicle or Driver.</p>
+			<p class="western">Contract Balance must have enough funds (or
+			product volume) to allow the transfer; otherwise the action will
+			be rejected by the current accounts subsystem.</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Observations</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">The action will first trigger a Deposit action
+			on the Contract and the Contract to sub-account transfer.</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">902</p>
+		</td>
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Title:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Balance withdrawal from a sub-account</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Function:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western" style="margin-bottom: 0.21cm">Withdraws a given
+			value from the sub-account related to the Vehicle or Driver.</p>
+			<p class="western">Sub-account Balance must have enough funds (or
+			product volume) to allow the withdrawal; otherwise the action will
+			be rejected by the current accounts subsystem.</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">903</p>
+		</td>
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Title:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Balance transfer from sub-account to
+			sub-account</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Function:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western" style="margin-bottom: 0.21cm">Transfers a given
+			value from the original sub-account (related to the Original
+			Vehicle or Driver) to the sub-account related to the Vehicle or
+			Driver.</p>
+			<p class="western">Original sub-account balance must have enough
+			funds (or product volume) to allow the transfer; otherwise the
+			action will be rejected by the current accounts subsystem.</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">904</p>
+		</td>
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Title:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Balance transfer from contract to sub-account</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Function:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western" style="margin-bottom: 0.21cm">Transfers a given
+			value from the contract to the sub-account related to the Vehicle
+			or Driver.</p>
+			<p class="western">Contract balance must have enough funds (or
+			product volume) to allow the transfer; otherwise the action will
+			be rejected by the current accounts subsystem.</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">905</p>
+		</td>
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Title:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Balance transfer from sub-account to contract</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western">Function:</p>
+		</td>
+		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
+			<p class="western" style="margin-bottom: 0.21cm">Transfers a given
+			value from the sub-account related to the Vehicle or Driver to the
+			contract.</p>
+			<p class="western">Sub-account Balance must have enough funds (or
+			product volume) to allow the withdrawal; otherwise the action will
+			be rejected by the current accounts subsystem.</p>
+		</td>
+	</tr>
+</table>
 
 #####6.2 Identification#####
 
