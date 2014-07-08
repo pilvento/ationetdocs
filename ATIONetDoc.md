@@ -1,4 +1,4 @@
-![ATIONET](C:\Users\fhart\Desktop\Logo.png)
+![ATIONET](Content/Images/Logo.png)
 
 ##ATIONet Native Interface API Protocol Specification##
 
