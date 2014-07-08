@@ -49,96 +49,87 @@
 		</th>
 	</tr>
 	<tr>
-		<td>Ver.
+		<td>
+			Ver.
 		</td>
-		<td>Date
+		<td>
+			Date
 		</td>
-		<td>Change Summary
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="36" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western"><span lang="es-AR">1.0</span></p>
-		</td>
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western"><span lang="es-AR">04/Jan/2013</span></p>
-		</td>
-		<td width="404" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Initial version. 
-			</p>
-			<p class="western">General information	<br>Actions: Statement
-			Charges (partial)	<br>	 Transactions Download</p>
+		<td>
+			Change Summary
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="36" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western"><span lang="es-AR">1.1</span></p>
+		<td>
+			<p>1.0</p>
 		</td>
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western"><span lang="es-AR">07/Jan/2013</span></p>
+		<td>
+			<p>04/Jan/2013</p>
 		</td>
-		<td width="404" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Statement
-			Charges	<br>- Added Action 902 Negative Balance transfer to a
-			sub-account</p>
-			<p class="western" style="margin-bottom: 0.21cm">New group of
-			actions: 941 &ndash; 950 Account Inquiries (partial)	<br>Actions:
-			941 Sub-account Balance Enquiry	<br> 	 942 Sub-account Limit
-			Enquiry</p>
-			<p class="western">Transactions Downloads	<br>- Consolidated
-			Classification Fields for Vehicles and Drivers	 <br>- Reorganized
-			Response record, moved Classification fields after Driver Fields.</p>
+		<td>
+			<p>Initial version.</p>
+			<p>General information
+			<br> Actions: Statement Charges (partial)
+			<br> Transactions Download</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="36" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">1.2</p>
+		<td>
+			<p>1.1</p>
 		</td>
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">30/10/2013</p>
+		<td>
+			<p>07/Jan/2013</p>
 		</td>
-		<td width="404" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Account
-			Inquiries	<br>- Added Action 943 Contract Balance Enquiry</p>
-			<p class="western">New group of actions: 951 &ndash; 959 Account
-			Download (partial)	<br>Actions: 951 Sub-Account Movements
-			Download	<br> 	  952 Contract Movements Download</p>
+		<td>
+			<p>Statement Charges
+			<br> - Added Action 902 Negative Balance transfer to a sub-account</p>
+			<p>New group of actions: 941 &ndash; 950 Account Inquiries (partial)
+			<br> Actions: 941 Sub-account Balance Enquiry
+			<br> 942 Sub-account Limit Enquiry</p>
+			<p>Transactions Downloads
+			<br> - Consolidated Classification Fields for Vehicles and Drivers
+			<br> - Reorganized Response record, moved Classification fields after Driver Fields.</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="36" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">1.3</p>
+		<td>
+			<p>1.2</p>
 		</td>
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">05/07/2014</p>
+		<td>
+			<p>30/10/2013</p>
 		</td>
-		<td width="404" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p style="margin-bottom: 0cm"><b>Statement Charges</b>	<br>- Added
-			Action 903 Transfer balance from sub-account to a sub-account</p>
-			<p style="margin-bottom: 0cm">- Added Action 904 Transfer balance
-			from contract to a sub-account</p>
-			<p style="margin-bottom: 0cm">- Added Action 905 Transfer balance
-			from sub-account to a contract</p>
-			<p class="western" style="margin-bottom: 0.21cm">- Change and
-			reorganize request and response records</p>
-			<p class="western" style="margin-bottom: 0.21cm"><b>Transactions
-			Downloads</b>	<br>- Change and reorganize request and response
-			records</p>
-			<p style="margin-bottom: 0cm"><b>Account Inquiries</b>	<br>-
-			Remove Action 943 Contract Balance Enquiry</p>
-			<p class="western" style="margin-bottom: 0.21cm">- Change and
-			reorganize request and response records</p>
-			<p style="margin-bottom: 0cm"><b>Account Downloads</b>	<br>-
-			Remove Action 952 Contract Movements Download</p>
-			<p style="margin-bottom: 0cm">- Change Action 951 Sub-Account
-			Movements Download to 951 Movements Download</p>
-			<p class="western" style="margin-bottom: 0.21cm">- Change and
-			reorganize request and response records</p>
-			<p style="margin-bottom: 0cm"><b>Error Handling</b></p>
-			<p class="western">- Include &ldquo;ResponseError&rdquo; in
-			response record for actions intended to post a command            
-			              
-			</p>
+		<td>
+			<p>Account Inquiries
+			<br> - Added Action 943 Contract Balance Enquiry</p>
+			<p>New group of actions: 951 &ndash; 959 Account Download (partial)
+			<br> Actions: 951 Sub-Account Movements Download
+			<br> 952 Contract Movements Download</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>1.3</p>
+		</td>
+		<td>
+			<p>05/07/2014</p>
+		</td>
+		<td>
+			<p><b>Statement Charges</b>
+			<br> - Added Action 903 Transfer balance from sub-account to a sub-account</p>
+			<p>- Added Action 904 Transfer balance from contract to a sub-account</p>
+			<p>- Added Action 905 Transfer balance from sub-account to a contract</p>
+			<p>- Change and reorganize request and response records</p>
+			<p><b>Transactions Downloads</b>
+			<br> - Change and reorganize request and response records</p>
+			<p><b>Account Inquiries</b>
+			<br> - Remove Action 943 Contract Balance Enquiry</p>
+			<p>- Change and reorganize request and response records</p>
+			<p><b>Account Downloads</b>
+			<br> - Remove Action 952 Contract Movements Download</p>
+			<p>- Change Action 951 Sub-Account Movements Download to 951 Movements Download</p>
+			<p>- Change and reorganize request and response records</p>
+			<p><b>Error Handling</b></p>
+			<p>- Include &ldquo;ResponseError&rdquo; in response record for actions intended to post a command</p>
 		</td>
 	</tr>
 </table>
@@ -270,223 +261,159 @@ subscriber.
 <table>
 	<thead>
 		<tr valign="center">
-			<th rowspan="2" align="left">Name
+			<th rowspan="2" width="125" align="left">
+				Name
 			</th>
-			<th colspan="2" align="center">Protocol Ver.
+			<th colspan="2" align="center">
+				Protocol Ver.
 			</th>
-			<th  rowspan="2" align="left">Description
+			<th rowspan="2" align="left">
+				Description
 			</th>
 		</tr>
-  <tr valign="top">
-    <th align="center">Initial
-    </th>
-    <th align="center">Change
-    </th>
-  </tr>
+ <tr valign="top">
+  <th align="center">
+		Initial
+  </th>
+  <th align="center">
+		Change
+  </th>
+ </tr>
 	</thead>
 	<tbody>
 		<tr valign="top">
-			<td rowspan="3"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Statement
-				charges [HTTP POST]</p>
-				<p class="western" align="left">901 to 920</p>
+			<td rowspan="3">
+				<p align="left">Statement charges
+				<br> [HTTP POST]</p>
+				<p align="left">901 to 920</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.0</p>
+			<td>
+				<p align="center">1.0</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center" style="margin-bottom: 0.21cm"><br><br>
-				</p>
-				<p class="western" align="center" style="margin-bottom: 0.21cm"><br><br>
-				</p>
-				<p class="western" align="center"><br>
-				</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Commands
-				ATIONet to process a movement on the account of a driver or
-				vehicle, given an action type indicated on the message body. 
-				</p>
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Availability
-				of this message and the type of actions allowed depend on the
-				subscriber type and its contracting terms.</p>
-				<p class="western" align="left">901 - Balance transfer to a
-				sub-account</p>
+			<td></td>
+			<td>
+				<p align="left">Commands ATIONet to process a movement on the account of a driver or vehicle, given an action type indicated on the message body.</p>
+				<p align="left">Availability of this message and the type of actions allowed depend on the subscriber type and its contracting terms.</p>
+				<p align="left">901 - Balance transfer to a sub-account</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.1</p>
+			<td>
+				<p align="center">1.1</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">902 - Balance withdrawal from a
-				sub-account</p>
+			<td></td>
+			<td>
+				<p align="left">902 - Balance withdrawal from a sub-account</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
+			<td></td>
+			<td>
+				<p align="center">1.3</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.3</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">901
-				- Balance transfer to a sub-account</p>
-				<p class="western" align="left" style="margin-bottom: 0.21cm">902
-				- Balance withdrawal from a sub-account</p>
-				<p class="western" align="left" style="margin-bottom: 0.21cm">903
-				- Transfer balance from sub-account to a sub-account</p>
-				<p class="western" align="left" style="margin-bottom: 0.21cm">904
-				- Transfer balance from contract to a sub-account</p>
-				<p class="western" align="left">905 - Transfer balance from
-				sub-account to a contract</p>
+			<td>
+				<p align="left">901 - Balance transfer to a sub-account</p>
+				<p align="left">902 - Balance withdrawal from a sub-account</p>
+				<p align="left">903 - Transfer balance from sub-account to a sub-account</p>
+				<p align="left">904 - Transfer balance from contract to a sub-account</p>
+				<p align="left">905 - Transfer balance from sub-account to a contract</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td rowspan="3"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Transactions
-				Download<br>[HTTP POST]</p>
-				<p class="western" align="left">931 to 940</p>
+			<td rowspan="3">
+				<p align="left">Transactions Download
+				<br> [HTTP POST]</p>
+				<p align="left">931 to 940</p>
 			</td>
-			<td rowspan="2"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.0</p>
+			<td rowspan="2">
+				<p align="center">1.0</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Returns
-				a list of completed transactions from ATIONet host, between two
-				dates, for a given Subscriber, Merchant or fleet Company</p>
-				<p class="western" align="left" style="margin-bottom: 0.21cm">931
-				- Transactions Download</p>
-				<p class="western" align="left">932 - Transactions Download for
-				Merchants</p>
+			<td></td>
+			<td>
+				<p align="left">Returns a list of completed transactions from ATIONet host, between two dates, for a given Subscriber, Merchant or fleet Company</p>
+				<p align="left">931 - Transactions Download</p>
+				<p align="left">932 - Transactions Download for Merchants</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.1</p>
+			<td>
+				<p align="center">1.1</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">931
-				- Transactions Download</p>
-				<p class="western" align="left">932 - Transactions Download for
-				Merchants</p>
+			<td>
+				<p align="left">931 - Transactions Download</p>
+				<p align="left">932 - Transactions Download for Merchants</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
+			<td></td>
+			<td>
+				<p align="center">1.3</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.3</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">931
-				- Transactions Download</p>
-				<p class="western" align="left">932 - Transactions Download for
-				Merchants</p>
+			<td>
+				<p align="left">931 - Transactions Download</p>
+				<p align="left">932 - Transactions Download for Merchants</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td rowspan="3"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Account
-				Enquiries<br>[HTTP POST]</p>
-				<p class="western" align="left">941 to 950</p>
+			<td rowspan="3">
+				<p align="left">Account Enquiries
+				<br>[HTTP POST]</p>
+				<p align="left">941 to 950</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.1</p>
+			<td>
+				<p align="center">1.1</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Returns
-				specific values of a Contract or Sub-account.</p>
-				<p class="western" align="left" style="margin-bottom: 0.21cm">941
-				- Sub-account Balance Enquiry	</p>
-				<p class="western" align="left">942 - Sub-Account Limit Enquiry</p>
+			<td></td>
+			<td>
+				<p align="left">Returns specific values of a Contract or Sub-account.</p>
+				<p align="left">941 - Sub-account Balance Enquiry</p>
+				<p align="left">942 - Sub-Account Limit Enquiry</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.2</p>
+			<td>
+				<p align="center">1.2</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">943 - Contract Balance Enquiry</p>
+			<td></td>
+			<td>
+				<p align="left">943 - Contract Balance Enquiry</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
+			<td></td>
+			<td>
+				<p align="center">1.3</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.3</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">941
-				- Sub-account Balance Enquiry	</p>
-				<p class="western" align="left" style="margin-bottom: 0.21cm">942
-				- Sub-Account Limit Enquiry</p>
-				<p class="western" align="left"><font color="#ff0000"><strike>943
-				- Contract Balance Enquiry</strike></font></p>
+			<td>
+				<p align="left">941 - Sub-account Balance Enquiry</p>
+				<p align="left">942 - Sub-Account Limit Enquiry</p>
+				<p align="left"><strike>943 - Contract Balance Enquiry</strike></p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td rowspan="2"  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Account
-				Downloads<br>[HTTP POST]</p>
-				<p class="western" align="left">951 to 960</p>
+			<td rowspan="2">
+				<p align="left">Account Downloads
+				<br>[HTTP POST]</p>
+				<p align="left">951 to 960</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.2</p>
+			<td>
+				<p align="center">1.2</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">951
-				- Sub-Account Movements Download 
-				</p>
-				<p class="western" align="left">952 - Contract Movements
-				Download<br><br>
-				</p>
+			<td></td>
+			<td>
+				<p align="left">951 - Sub-Account Movements Download</p>
+				<p align="left">952 - Contract Movements Download</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center"><br>
-				</p>
+			<td></td>
+			<td>
+				<p align="center">1.3</p>
 			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="center">1.3</p>
-			</td>
-			<td  style="border: 1px solid #000001; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">951
-				- Movements Download 
-				</p>
-				<p class="western" align="left" style="margin-bottom: 0.21cm"><font color="#ff0000"><strike>951
-				- Sub-Account Movements Download</strike></font></p>
-				<p class="western" align="left"><font color="#ff0000"><strike>952
-				- Contract Movements Download</strike></font><font color="#ff0000">
-				</font>
-				</p>
+			<td>
+				<p align="left">951 - Movements Download</p>
+				<p align="left"><strike>951 - Sub-Account Movements Download</strike></p>
+				<p align="left"><strike>952	- Contract Movements Download</strike></p>
 			</td>
 		</tr>
 	</tbody>
@@ -526,24 +453,24 @@ many responses will contain multiple records.
 
 *Header:*
 
-Accept-Encoding: gzip
+	Accept-Encoding: gzip
 
-Authorization: Basic user:password
+	Authorization: Basic user:password
 
 *Body:*
 
-{“ActionCode”:”nnn”,”FieldName”:”StringValue”,”FieldName”:Value}
+	{“ActionCode”:”nnn”,”FieldName”:”StringValue”,”FieldName”:Value}
 
 #####Response#####
 
 *Header:*
 
-Content-Type: application/json; charset=utf-8
+	Content-Type: application/json; charset=utf-8
 
 *Body:*
 
-[{“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value},
-{“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value}]
+	[{“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value},
+	{“Fieldname”:”StringValue”,”FieldName”:”StringValue”,”FieldName”:Value}]
 
 
 Note: Some Action Codes returns a single response row, for example the
@@ -597,139 +524,119 @@ subscription types but also on contract terms with ATIONet.
 
 <table>
 	<tr valign="top">
-		<th align="left">Action Code
+		<th align="left">
+			Action Code
 		</th>
-		<th colspan="2" align="left">Description
+		<th colspan="2" align="left">
+			Description
 		</th>
 	</tr>
 	<tr valign="top">
-		<td rowspan="3" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">901</p>
+		<td rowspan="3">
+			<p>901</p>
 		</td>
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
+		<td>
+			<p>Title:</p>
 		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Balance transfer to a sub-account</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
-		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Transfers a given
-			value from the global balance of the Contract to the sub-account
-			related to the Vehicle or Driver.</p>
-			<p class="western">Contract Balance must have enough funds (or
-			product volume) to allow the transfer; otherwise the action will
-			be rejected by the current accounts subsystem.</p>
+		<td>
+			<p>Balance transfer to a sub-account</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Observations</p>
+		<td>
+			<p>Function:</p>
 		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">The action will first trigger a Deposit action
-			on the Contract and the Contract to sub-account transfer.</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">902</p>
-		</td>
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
-		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Balance withdrawal from a sub-account</p>
+		<td>
+			<p>Transfers a given value from the global balance of the Contract to the sub-account related to the Vehicle or Driver.</p>
+			<p>Contract Balance must have enough funds (or product volume) to allow the transfer; otherwise the action will be rejected by the current accounts subsystem.</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
+		<td>
+			<p>Observations</p>
 		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Withdraws a given
-			value from the sub-account related to the Vehicle or Driver.</p>
-			<p class="western">Sub-account Balance must have enough funds (or
-			product volume) to allow the withdrawal; otherwise the action will
-			be rejected by the current accounts subsystem.</p>
+		<td>
+			<p>The action will first trigger a Deposit action on the Contract and the Contract to sub-account transfer.</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">903</p>
+		<td rowspan="2">
+			<p>902</p>
 		</td>
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
+		<td>
+			<p>Title:</p>
 		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Balance transfer from sub-account to
-			sub-account</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
-		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Transfers a given
-			value from the original sub-account (related to the Original
-			Vehicle or Driver) to the sub-account related to the Vehicle or
-			Driver.</p>
-			<p class="western">Original sub-account balance must have enough
-			funds (or product volume) to allow the transfer; otherwise the
-			action will be rejected by the current accounts subsystem.</p>
+		<td>
+			<p>Balance withdrawal from a sub-account</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">904</p>
+		<td>
+			<p>Function:</p>
 		</td>
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
-		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Balance transfer from contract to sub-account</p>
+		<td>
+			<p>Withdraws a given value from the sub-account related to the Vehicle or Driver.</p>
+			<p>Sub-account Balance must have enough funds (or product volume) to allow the withdrawal; otherwise the action will be rejected by the current accounts subsystem.</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
+		<td rowspan="2">
+			<p>903</p>
 		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Transfers a given
-			value from the contract to the sub-account related to the Vehicle
-			or Driver.</p>
-			<p class="western">Contract balance must have enough funds (or
-			product volume) to allow the transfer; otherwise the action will
-			be rejected by the current accounts subsystem.</p>
+		<td>
+			<p>Title:</p>
+		</td>
+		<td>
+			<p>Balance transfer from sub-account to sub-account</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">905</p>
+		<td>
+			<p>Function:</p>
 		</td>
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
-		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Balance transfer from sub-account to contract</p>
+		<td>
+			<p>Transfers a given value from the original sub-account (related to the Original Vehicle or Driver) to the sub-account related to the Vehicle or Driver.</p>
+			<p>Original sub-account balance must have enough funds (or product volume) to allow the transfer; otherwise the action will be rejected by the current accounts subsystem.</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
+		<td rowspan="2">
+			<p>904</p>
 		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Transfers a given
-			value from the sub-account related to the Vehicle or Driver to the
-			contract.</p>
-			<p class="western">Sub-account Balance must have enough funds (or
-			product volume) to allow the withdrawal; otherwise the action will
-			be rejected by the current accounts subsystem.</p>
+		<td>
+			<p>Title:</p>
+		</td>
+		<td>
+			<p>Balance transfer from contract to sub-account</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>Function:</p>
+		</td>
+		<td>
+			<p>Transfers a given value from the contract to the sub-account related to the Vehicle or Driver.</p>
+			<p>Contract balance must have enough funds (or product volume) to allow the transfer; otherwise the action will be rejected by the current accounts subsystem.</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td rowspan="2">
+			<p>905</p>
+		</td>
+		<td>
+			<p>Title:</p>
+		</td>
+		<td>
+			<p>Balance transfer from sub-account to contract</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>Function:</p>
+		</td>
+		<td>
+			<p>Transfers a given value from the sub-account related to the Vehicle or Driver to the contract.</p>
+			<p>Sub-account Balance must have enough funds (or product volume) to allow the withdrawal; otherwise the action will be rejected by the current accounts subsystem.</p>
 		</td>
 	</tr>
 </table>
