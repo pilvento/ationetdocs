@@ -145,53 +145,53 @@
 
 **Contents**
 
-[1 Scope](#1--scope)
+[1 Scope](#1-scope)
 
->[1.1 Scope details](#11--scope-details)
+>[1.1 Scope details](#11-scope-details)
 
-[2 System Interface API](#__RefHeading__3490_1617151515)
+[2 System Interface API](#2-system-interface-api)
 
->[2.1 Interface API Messages](#__RefHeading__3492_1617151515)
+>[2.1 Interface API Messages](#21-interface-api-messages)
 
-[3 Data security](#__RefHeading__3494_1617151515)
+[3 Data security](#3-data-security)
 
-[4 Message Structure](#__RefHeading__3496_1617151515)
+[4 Message Structure](#4-message-structure)
 
-[5 Error handling](#__RefHeading__3498_1617151515)
+[5 Error handling](#5-error-handling)
 
-[6 Statement Charges Interface](#__RefHeading__3500_1617151515)
+[6 Statement Charges Interface](#6-statement-charges-interface)
 
->[6.1 Action Codes](#__RefHeading__3502_1617151515)
+>[6.1 Action Codes](#61-action-codes)
 
->[6.2 Identification](#__RefHeading__3504_1617151515)
+>[6.2 Identification](#62-identification)
 
->[6.3 Statement Charge (POST) – Body Section Record Format](#__RefHeading__3506_1617151515)
+>[6.3 Statement Charge (POST) – Body Section Record Format](#63-statement-charge-post--body-section-record-format)
 
-[7 Transactions Download Interface](#__RefHeading__3508_1617151515)
+[7 Transactions Download Interface](#7-transactions-download-interface)
 
->[7.1 Action Codes](#__RefHeading__3510_1617151515)
+>[7.1 Action Codes](#71-action-codes)
 
->[7.2 Transactions Download (POST) – Body Section Format Request](#__RefHeading__3512_1617151515)
+>[7.2 Transactions Download (POST) – Body Section Format Request](#72-transactions-download-post--body-section-format-request)
 
->[7.3 Transactions Download (POST) – Body Section Format Response](#__RefHeading__3514_1617151515)
+>[7.3 Transactions Download (POST) – Body Section Format Response](#73-transactions-download-post--body-section-format-response)
 
-[8 Account Enquiries](#__RefHeading__3516_1617151515)
+[8 Account Enquiries](#8-account-enquiries)
 
->[8.1 Action Codes](#__RefHeading__3518_1617151515)
+>[8.1 Action Codes](#81-action-codes)
 
->[8.2 Identification](#__RefHeading__3520_1617151515)
+>[8.2 Identification](#82-identification)
 
->[8.3 Account Enquiry (POST) – Body Section Record Format Request](#__RefHeading__3522_1617151515)
+>[8.3 Account Enquiry (POST) – Body Section Record Format Request](#83-account-enquiry-post--body-section-record-format-request)
 
->[8.4 Account Enquiry (POST) – Body Section Record Format Response](#__RefHeading__3524_1617151515)
+>[8.4 Account Enquiry (POST) – Body Section Record Format Response](#84-account-enquiry-post--body-section-record-format-response)
 
-[9 Account Downloads](#__RefHeading__3526_1617151515)
+[9 Account Downloads](#9-account-downloads)
 
->[9.1 Action Codes](#__RefHeading__3528_1617151515)
+>[9.1 Action Codes](#91-action-codes)
 
->[9.2 Account Download (POST) – Body Section Format Request](#__RefHeading__3530_1617151515)
+>[9.2 Account Download (POST) – Body Section Format Request](#92-account-download-post--body-section-format-request)
 
->[9.3 Account Download (POST) – Body Section Format Response](#__RefHeading__3532_1617151515)
+>[9.3 Account Download (POST) – Body Section Format Response](#93-account-download-post--body-section-format-response)
 
 ####Overview####
 
