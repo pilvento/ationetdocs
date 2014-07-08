@@ -1052,93 +1052,87 @@ transactions to download.
 
 <table>
 	<tr valign="top">
-		<th align="left">Action Code
+		<th align="left">
+			Action Code
 		</th>
-		<th colspan="2" align="left">Description
+		<th colspan="2" align="left">
+			Description
 		</th>
 	</tr>
 	<tr valign="top">
-		<td rowspan="4" width="54" height="20" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">931</p>
+		<td rowspan="4">
+			<p>931</p>
 		</td>
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
+		<td>
+			<p>Title:</p>
 		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Transactions Download 
-			</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
-		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Download complete transactions records</p>
+		<td>
+			<p>Transactions Download</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Allowed for:</p>
+		<td>
+			<p>Function:</p>
 		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Subscribers and Fleet Companies</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Identification:</p>
-		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Subscriber Code</p>
-			<p class="western" style="margin-bottom: 0.21cm">Merchant Code
-			(Optional, if included will act as a filter)</p>
-			<p class="western" style="margin-bottom: 0.21cm">Company Code
-			(Optional, if included will act as a filter)</p>
-			<p class="western" style="margin-bottom: 0.21cm">Terminal
-			Code(Optional, if included will act as a filter)</p>
-			<p class="western">Contract Code (Optional, if included will act
-			as a filter)</p>
+		<td>
+			<p>Download complete transactions records</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td rowspan="4" width="54" height="19" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">932</p>
+		<td>
+			<p>Allowed for:</p>
 		</td>
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
-		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Transactions Download for Merchants</p>
+		<td>
+			<p>Subscribers and Fleet Companies</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
+		<td>
+			<p>Identification:</p>
 		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Download transactions records (fueling details
-			subset)</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Allowed for:</p>
-		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Merchants on a three-layer subscription model</p>
+		<td>
+			<p>Subscriber Code</p>
+			<p>Merchant Code (Optional, if included will act as a filter)</p>
+			<p>Company Code (Optional, if included will act as a filter)</p>
+			<p>Terminal Code(Optional, if included will act as a filter)</p>
+			<p>Contract Code (Optional, if included will act as a filter)</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Identification:</p>
+		<td rowspan="4">
+			<p>932</p>
 		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Subscriber Code</p>
-			<p class="western" style="margin-bottom: 0.21cm">Merchant Code 
-			</p>
-			<p class="western">Terminal Code (Optional, if included will act
-			as a filter)</p>
+		<td>
+			<p>Title:</p>
+		</td>
+		<td>
+			<p>Transactions Download for Merchants</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>Function:</p>
+		</td>
+		<td>
+			<p>Download transactions records (fueling details subset)</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>Allowed for:</p>
+		</td>
+		<td>
+			<p>Merchants on a three-layer subscription model</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>Identification:</p>
+		</td>
+		<td>
+			<p>Subscriber Code</p>
+			<p>Merchant Code</p>
+			<p>Terminal Code (Optional, if included will act as a filter)</p>
 		</td>
 	</tr>
 </table>
@@ -1148,157 +1142,320 @@ transactions to download.
 <table>
 	<thead>
 		<tr valign="top">
-			<th align="left">Field Name
+			<th align="left">
+				Field Name
 			</th>
-			<th align="left">Size
+			<th align="left">
+				Size
 			</th>
-			<th align="left">Type
+			<th align="left">
+				Type
 			</th>
-			<th align="left">Condition
+			<th align="left">
+				Condition
 			</th>
-			<th align="left">Descriptions/Field Value(s)
+			<th align="left">
+				Descriptions/Field Value(s)
 			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">SubscriberCode</p>
+			<td>
+				<p align="left">SubscriberCode</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">3</p>
+			<td>
+				<p align="left">3</p>
 			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Required</p>
+			<td>
+				<p align="left">Required</p>
 			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Fixed. To be assigned by ATIONet</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">ActionCode</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">3</p>
-			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">N</p>
-			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Required</p>
-			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Action Codes section above</p>
+			<td>
+				<p align="left">Fixed. To be assigned by ATIONet</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">MerchantCode</p>
+			<td>
+				<p align="left">ActionCode</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">30</p>
+			<td>
+				<p align="left">3</p>
 			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">N</p>
 			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Conditional</p>
+			<td>
+				<p align="left">Required</p>
 			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Action Codes section above</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">CompanyCode</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">30</p>
-			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Conditional</p>
-			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Action Codes section above</p>
+			<td>
+				<p align="left">See Action Codes section above</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">ContractCode</p>
+			<td>
+				<p align="left">MerchantCode</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">20</p>
+			<td>
+				<p align="left">30</p>
 			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
+			<td>
+				<p align="left">Conditional</p>
 			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Action Codes section above</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">TerminalCode</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
-			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
-			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Action Codes section above</p>
+			<td>
+				<p align="left">See Action Codes section above</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">DateFrom</p>
+			<td>
+				<p align="left">CompanyCode</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">19</p>
+			<td>
+				<p align="left">30</p>
 			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Required</p>
+			<td>
+				<p align="left">Conditional</p>
 			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0cm">From
-				date to filter transactions</p>
-				<p class="western" align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
+			<td>
+				<p align="left">See Action Codes section above</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">DateTo</p>
+			<td>
+				<p align="left">ContractCode</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">19</p>
+			<td>
+				<p align="left">20</p>
 			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
+			<td>
+				<p align="left">Optional</p>
 			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0cm">To
-				date to filter transactions</p>
-				<p class="western" align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
+			<td>
+				<p align="left">See Action Codes section above</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">TerminalCode</p>
+			</td>
+			<td>
+				<p align="left">50</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">See Action Codes section above</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">DateFrom</p>
+			</td>
+			<td>
+				<p align="left">19</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Required</p>
+			</td>
+			<td>
+				<p align="left">From date to filter transactions</p>
+				<p align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">DateTo</p>
+			</td>
+			<td>
+				<p align="left">19</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">To date to filter transactions</p>
+				<p align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
+			</td>
+		</tr>
+	</tbody>
+</table><table>
+	<thead>
+		<tr valign="top">
+			<th align="left">
+				Field Name
+			</th>
+			<th align="left">
+				Size
+			</th>
+			<th align="left">
+				Type
+			</th>
+			<th align="left">
+				Condition
+			</th>
+			<th align="left">
+				Descriptions/Field Value(s)
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr valign="top">
+			<td>
+				<p align="left">SubscriberCode</p>
+			</td>
+			<td>
+				<p align="left">3</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Required</p>
+			</td>
+			<td>
+				<p align="left">Fixed. To be assigned by ATIONet</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">ActionCode</p>
+			</td>
+			<td>
+				<p align="left">3</p>
+			</td>
+			<td>
+				<p align="left">N</p>
+			</td>
+			<td>
+				<p align="left">Required</p>
+			</td>
+			<td>
+				<p align="left">See Action Codes section above</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">MerchantCode</p>
+			</td>
+			<td>
+				<p align="left">30</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Conditional</p>
+			</td>
+			<td>
+				<p align="left">See Action Codes section above</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">CompanyCode</p>
+			</td>
+			<td>
+				<p align="left">30</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Conditional</p>
+			</td>
+			<td>
+				<p align="left">See Action Codes section above</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">ContractCode</p>
+			</td>
+			<td>
+				<p align="left">20</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">See Action Codes section above</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">TerminalCode</p>
+			</td>
+			<td>
+				<p align="left">50</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">See Action Codes section above</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">DateFrom</p>
+			</td>
+			<td>
+				<p align="left">19</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Required</p>
+			</td>
+			<td>
+				<p align="left">From date to filter transactions</p>
+				<p align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">DateTo</p>
+			</td>
+			<td>
+				<p align="left">19</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">To date to filter transactions</p>
+				<p align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
 			</td>
 		</tr>
 	</tbody>
@@ -1309,1223 +1466,1151 @@ transactions to download.
 <table>
 	<thead>
 		<tr valign="top">
-			<th align="left">Field Name
+			<th align="left">
+				Field Name
 			</th>
-			<th align="left">Size
+			<th align="left">
+				Size
 			</th>
-			<th align="left">Type
+			<th align="left">
+				Type
 			</th>
-			<th align="left">Descriptions/Field Value(s)
+			<th align="left">
+				Descriptions/Field Value(s)
 			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TransactionID</p>
+			<td>
+				<p>TransactionID</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">36</p>
+			<td>
+				<p>36</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Transaction&rsquo;s UID</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubscriberCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">3</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Code of the subscriber who owns the
-				transaction</p>
+			<td>
+				<p>Transaction&rsquo;s UID</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TransactionSequenceNumber</p>
+			<td>
+				<p>SubscriberCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>3</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Transaction ID as received from the site&rsquo;s
-				controller system. Usually a transaction counter. Site-based,
-				might repeat from site to site.</p>
+			<td>
+				<p>Code of the subscriber who owns the transaction</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">AuthorizationCode</p>
+			<td>
+				<p>TransactionSequenceNumber</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Authorization Code</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ResponseCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">5</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Host response code sent to the terminal</p>
+			<td>
+				<p>Transaction ID as received from the site&rsquo;s controller system. Usually a transaction counter. Site-based, might repeat from site to site.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ResponseMessage</p>
+			<td>
+				<p>AuthorizationCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Host response text sent to the terminal</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Status</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">1</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">2- &ldquo;Completed&rdquo;, 3- &ldquo;Confirmed&rdquo;</p>
+			<td>
+				<p>Authorization Code</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">StatusDescription</p>
+			<td>
+				<p>ResponseCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>5</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">&ldquo;Completed&rdquo;
-				or &ldquo;Confirmed&rdquo;</p>
-				<p class="western" style="margin-bottom: 0.21cm">A transaction is
-				Completed when the completion message sent from the site&rsquo;s
-				terminal is processed and approved by ATIONet, meaning that the
-				sale or delivery transaction was successfully performed at the
-				site.</p>
-				<p class="western" style="margin-bottom: 0.21cm">A transaction is
-				Confirmed when the site&rsquo;s terminal receives an acknowledge
-				message of the successful processing of completion message from
-				ATIONet.</p>
-				<p class="western">Thus, Confirmed or Completed transactions are
-				considered valid records of a successful transaction at the site.
-				But, a transaction that is only Completed (not confirmed) might
-				indicate that the site&rsquo;s terminal is not aware of ATIONet
-				status. Depending on the site&rsquo;s system, this could lead to
-				differences between site&rsquo;s and ATIONet sales totals.</p>
+			<td>
+				<p>Host response code sent to the terminal</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">HostDateTime</p>
+			<td>
+				<p>ResponseMessage</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">19</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">ATIONet&rsquo;s
-				transaction datetime &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;. 
+			<td>
+				<p>Host response text sent to the terminal</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>Status</p>
+			</td>
+			<td>
+				<p>1</p>
+			</td>
+			<td>
+				<p>N</p>
+			</td>
+			<td>
+				<p>2- &ldquo;Completed&rdquo;, 3- &ldquo;Confirmed&rdquo;</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>StatusDescription</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>&ldquo;Completed&rdquo; or &ldquo;Confirmed&rdquo;</p>
+				<p>A transaction is Completed when the completion message sent from the site&rsquo;s terminal is processed and approved by ATIONet, meaning that the sale or delivery transaction was successfully performed at the site.</p>
+				<p>A transaction is Confirmed when the site&rsquo;s terminal receives an acknowledge message of the successful processing of completion message from ATIONet.</p>
+				<p>Thus, Confirmed or Completed transactions are considered valid records of a successful transaction at the site. But, a transaction that is only Completed (not confirmed) might indicate that the site&rsquo;s terminal is not aware of ATIONet status. Depending on the site&rsquo;s system, this could lead to differences between site&rsquo;s and ATIONet sales totals.</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>HostDateTime</p>
+			</td>
+			<td>
+				<p>19</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>ATIONet&rsquo;s transaction datetime &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;. 
 				</p>
-				<p class="western">ATIONet Host date time is UCT</p>
+				<p>ATIONet Host date time is UCT</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubscriberDateTime</p>
+			<td>
+				<p>SubscriberDateTime</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">19</p>
+			<td>
+				<p>19</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Subscriber
-				transaction datetime &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;.</p>
-				<p class="western">Subscriber date time is Subscriber TimeZone</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubscriberTimeZone</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TimeZone code of the subscriber (abbreviation)</p>
+			<td>
+				<p>Subscriber transaction datetime &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;.</p>
+				<p>Subscriber date time is Subscriber TimeZone</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SiteDateTime</p>
+			<td>
+				<p>SubscriberTimeZone</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">19</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0.21cm">Site
-				transaction datetime &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;.</p>
-				<p class="western">Site date time is Site TimeZone</p>
+			<td>
+				<p>TimeZone code of the subscriber (abbreviation)</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SiteTimeZone</p>
+			<td>
+				<p>SiteDateTime</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>19</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">TimeZone code of the site
-				(abbreviation)</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DateTime</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">19</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Site&rsquo;s transaction date &ldquo;yyyy/mm/dd
-				hh:mm:ss&rdquo;.</p>
+			<td>
+				<p align="left">Site transaction datetime &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;.</p>
+				<p>Site date time is Site TimeZone</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">MerchantCode</p>
+			<td>
+				<p>SiteTimeZone</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">30</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Code of the
-				company who owns the site</p>
-				<p class="western">N/A to Homebase subscribers</p>
+			<td>
+				<p align="left">TimeZone code of the site (abbreviation)</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">MerchantName</p>
+			<td>
+				<p>DateTime</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">250</p>
+			<td>
+				<p>19</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Name of the
-				company who owns the site</p>
-				<p class="western">N/A to Homebase subscriber</p>
+			<td>
+				<p>Site&rsquo;s transaction date &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SiteCode</p>
+			<td>
+				<p>MerchantCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>30</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Site Code</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SiteName</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">100</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Name of the Site</p>
+			<td>
+				<p>Code of the company who owns the site</p>
+				<p>N/A to Homebase subscribers</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TerminalCode</p>
+			<td>
+				<p>MerchantName</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>250</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Site&rsquo;s
-				Terminal identification code.</p>
-				<p class="western">A Terminal is the device or system that
-				captures the transaction at the site, depending on the controller
-				(system) type at the site, it may be the actual terminal (for
-				example the specific OPT) or the whole system (several OPTs
-				served by a single controller).</p>
+			<td>
+				<p>Name of the company who owns the site</p>
+				<p>N/A to Homebase subscriber</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccountId</p>
+			<td>
+				<p>SiteCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">36</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccount&rsquo;s UID</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccountExternalCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccount&rsquo;s external code</p>
+			<td>
+				<p>Site Code</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">AccountTypeDescription</p>
+			<td>
+				<p>SiteName</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>100</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">&ldquo;Driver&rdquo;
-				or &ldquo;Vehicle&rdquo;</p>
-				<p class="western" style="margin-bottom: 0.21cm">This field
-				indicates whether the sub-account charged with the transaction is
-				a Vehicle or a Driver.</p>
-				<p class="western">NOTE: The rest of the fields related to
-				Vehicle or Driver in the transaction will be populated or not
-				depending on this value and should be evaluated accordingly.</p>
+			<td>
+				<p>Name of the Site</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">VehicleCode</p>
+			<td>
+				<p>TerminalCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Vehicle Code</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Driver Code</p>
+			<td>
+				<p>Site&rsquo;s Terminal identification code.</p>
+				<p>A Terminal is the device or system that captures the transaction at the site, depending on the controller (system) type at the site, it may be the actual terminal (for example the specific OPT) or the whole system (several OPTs served by a single controller).</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ProductAmountRequested</p>
+			<td>
+				<p>SubAccountId</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>36</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Amount (money)
-				requested on a single-product pre-authorization. 
-				</p>
-				<p class="western" style="margin-bottom: 0.21cm">xxxxxxx.xx</p>
-				<p class="western">NOTE: ATIONet Native Transaction Protocol
-				allows for one product to be included directly on the message
-				body. More products could be included in the Product Data
-				structure, therefore &ldquo;Product&rdquo; figures might be
-				different (lesser) than &ldquo;Transaction&rdquo; figures, which
-				always represents total values. On most situations (just one
-				fueling per transaction, without dry products), &ldquo;Product&rdquo;
-				and &ldquo;Transaction&rdquo; value-fields would have the same
-				values.</p>
+			<td>
+				<p>SubAccount&rsquo;s UID</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ProductVolumeRequested</p>
+			<td>
+				<p>SubAccountExternalCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Volume requested on a single-product
-				pre-authorization. xxxxxxx.xx</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ProductVolumeAuthorized</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Volume authorized. xxxxxxx.xx</p>
+			<td>
+				<p>SubAccount&rsquo;s external code</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ProductAmountAuthorized</p>
+			<td>
+				<p>AccountTypeDescription</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Amount authorized. xxxxxxx.xx</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ProductVolumeDispensed</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Actual fueling volume (adjusted by the
-				completion message). xxxxxxx.xx</p>
+			<td>
+				<p>&ldquo;Driver&rdquo; or &ldquo;Vehicle&rdquo;</p>
+				<p>This field indicates whether the sub-account charged with the transaction is a Vehicle or a Driver.</p>
+				<p>NOTE: The rest of the fields related to Vehicle or Driver in the transaction will be populated or not depending on this value and should be evaluated accordingly.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ProductAmountDispensed</p>
+			<td>
+				<p>VehicleCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Actual fueling amount (adjusted by the
-				completion message). xxxxxxx.xx</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ProductUnitPrice</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">PUP on a
-				single-product transaction.</p>
-				<p class="western">xxx.xxx</p>
+			<td>
+				<p>Vehicle Code</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TransactionAmountRequested</p>
+			<td>
+				<p>DriverCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Transaction amount requested on the
-				pre-authorization. xxxxxxx.xx</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TransactionAmountAuthorized</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Transaction amount authorized.	 <br>xxxxxxx.xx</p>
+			<td>
+				<p>Driver Code</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TransactionAmountDispensed</p>
+			<td>
+				<p>ProductAmountRequested</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Actual amount fueled. xxxxxxx.xx</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">MeasurementUnitCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Unit of measuring for the volume fields,
-				according to site&rsquo;s configuration.</p>
+			<td>
+				<p>Amount (money) requested on a single-product pre-authorization. </p>
+				<p>xxxxxxx.xx</p>
+				<p>NOTE: ATIONet Native Transaction Protocol allows for one product to be included directly on the message body. More products could be included in the Product Data structure, therefore &ldquo;Product&rdquo; figures might be different (lesser) than &ldquo;Transaction&rdquo; figures, which always represents total values. On most situations (just one fueling per transaction, without dry products), &ldquo;Product&rdquo; and &ldquo;Transaction&rdquo; value-fields would have the same values.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">CurrencyCode</p>
+			<td>
+				<p>ProductVolumeRequested</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Currency of the amount fields, according to
-				site&rsquo;s configuration</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FuelCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Site&rsquo;s product code</p>
+			<td>
+				<p>Volume requested on a single-product pre-authorization. xxxxxxx.xx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FuelMasterCode</p>
+			<td>
+				<p>ProductVolumeAuthorized</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Standardized product code. Helps to identify a
-				fuel product category across multiple Merchant brands and site&rsquo;s
-				product codes</p>
+			<td>
+				<p>Volume authorized. xxxxxxx.xx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FuelMasterDescription</p>
+			<td>
+				<p>ProductAmountAuthorized</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">100</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Standardized product description. Helps to
-				identify a fuel product category across multiple Merchant brands
-				and site&rsquo;s product codes</p>
+			<td>
+				<p>Amount authorized. xxxxxxx.xx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">InvoiceNumber</p>
+			<td>
+				<p>ProductVolumeDispensed</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Number assigned by the Terminal to the
-				document issued for the transaction. May be empty.</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">BatchNumber</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">11</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Batch Identification. Informed by the site&rsquo;s
-				controller. Persisted on ATIONet for information purposes only.
-				May be empty</p>
+			<td>
+				<p>Actual fueling volume (adjusted by the completion message). xxxxxxx.xx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ShiftNumber</p>
+			<td>
+				<p>ProductAmountDispensed</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Shift (or Date+Shift) Identification. Informed
-				by the site&rsquo;s controller. Persisted on ATIONet for
-				information purposes only. May be empty</p>
+			<td>
+				<p>Actual fueling amount (adjusted by the completion message). xxxxxxx.xx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">PumpNumer</p>
+			<td>
+				<p>ProductUnitPrice</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">2</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Fueling position number. Informed by the
-				terminal.</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">EntryMethod</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">1</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0cm">1 =
-				Manual Entry</p>
-				<p class="western" align="left" style="margin-bottom: 0cm">2 =
-				Magnetic Card Swipe</p>
-				<p class="western" align="left" style="margin-bottom: 0cm">3 =
-				Smart Card</p>
-				<p class="western">4 = AVI</p>
+			<td>
+				<p>PUP on a single-product transaction.</p>
+				<p>xxx.xxx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">CompanyCode</p>
+			<td>
+				<p>TransactionAmountRequested</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">30</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Company code</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">CompanyName</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">250</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Company name</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
+			<td>
+				<p>Transaction amount requested on the pre-authorization. xxxxxxx.xx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ClassificationLabel1</p>
+			<td>
+				<p>TransactionAmountAuthorized</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">200</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Classifications</p>
-				<p class="western">ATIONet allows for up to four user-defined
-				classification field for Vehicles or Drivers.</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ClassificationLabel2</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">200</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
-				</p>
+			<td>
+				<p>Transaction amount authorized.
+				<br>xxxxxxx.xx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ClassificationLabel3</p>
+			<td>
+				<p>TransactionAmountDispensed</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">200</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
-				</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ClassificationLabel4</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">200</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
-				</p>
+			<td>
+				<p>Actual amount fueled. xxxxxxx.xx</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ContractCode</p>
+			<td>
+				<p>MeasurementUnitCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">20</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Contract code</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubContractCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">SubContract code</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
+			<td>
+				<p>Unit of measuring for the volume fields, according to site&rsquo;s configuration.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">PrimaryIdentificationLabel</p>
+			<td>
+				<p>CurrencyCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Public ID of the primary
-				identification device (chipkey ID, account number on a mag card,
-				RFID serial number, etc.)</p>
+			<td>
+				<p>Currency of the amount fields, according to site&rsquo;s configuration</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SecondaryIdentificationLabel</p>
+			<td>
+				<p>FuelCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Public ID of the secondary identification
-				device (chipkey ID, account number on a mag card, RFID serial
-				number, etc.)</p>
+			<td>
+				<p>Site&rsquo;s product code</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FleetCode</p>
+			<td>
+				<p>FuelMasterCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Fleet Code</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FleetName</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Fleet Name</p>
+			<td>
+				<p>Standardized product code. Helps to identify a fuel product category across multiple Merchant brands and site&rsquo;s product codes</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">VehiclePlate</p>
+			<td>
+				<p>FuelMasterDescription</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>100</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Licence plate</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">VehicleClassDescription</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Vehicle Class</p>
+			<td>
+				<p>Standardized product description. Helps to identify a fuel product category across multiple Merchant brands and site&rsquo;s product codes</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">VehicleClassificationValue1</p>
+			<td>
+				<p>InvoiceNumber</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
+			<td>
+				<p>Number assigned by the Terminal to the document issued for the transaction. May be empty.</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>BatchNumber</p>
+			</td>
+			<td>
+				<p>11</p>
+			</td>
+			<td>
+				<p>N</p>
+			</td>
+			<td>
+				<p>Batch Identification. Informed by the site&rsquo;s controller. Persisted on ATIONet for information purposes only. May be empty</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>ShiftNumber</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Shift (or Date+Shift) Identification. Informed by the site&rsquo;s controller. Persisted on ATIONet for information purposes only. May be empty</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>PumpNumer</p>
+			</td>
+			<td>
+				<p>2</p>
+			</td>
+			<td>
+				<p>N</p>
+			</td>
+			<td>
+				<p>Fueling position number. Informed by the terminal.</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>EntryMethod</p>
+			</td>
+			<td>
+				<p>1</p>
+			</td>
+			<td>
+				<p align="left">N</p>
+			</td>
+			<td>
+				<p align="left">1 = Manual Entry</p>
+				<p align="left">2 = Magnetic Card Swipe</p>
+				<p align="left">3 = Smart Card</p>
+				<p align="left">4 = AVI</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>CompanyCode</p>
+			</td>
+			<td>
+				<p>30</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Company code</p>
+				<p>Not meaningful for Homebase subscribers</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>CompanyName</p>
+			</td>
+			<td>
+				<p>250</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Company name</p>
+				<p>Not meaningful for Homebase subscribers</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>ClassificationLabel1</p>
+			</td>
+			<td>
+				<p>200</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Classifications</p>
+				<p>ATIONet allows for up to four user-defined classification field for Vehicles or Drivers.</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>ClassificationLabel2</p>
+			</td>
+			<td>
+				<p>200</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td></td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>ClassificationLabel3</p>
+			</td>
+			<td>
+				<p>200</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td></td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>ClassificationLabel4</p>
+			</td>
+			<td>
+				<p>200</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td></td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>ContractCode</p>
+			</td>
+			<td>
+				<p>20</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Contract code</p>
+				<p>Not meaningful for Homebase subscribers</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>SubContractCode</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>SubContract code</p>
+				<p>Not meaningful for Homebase subscribers</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>PrimaryIdentificationLabel</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p align="left">Public ID of the primary identification device (chipkey ID, account number on a mag card, RFID serial number, etc.)</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>SecondaryIdentificationLabel</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Public ID of the secondary identification device (chipkey ID, account number on a mag card, RFID serial number, etc.)</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>FleetCode</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Fleet Code</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>FleetName</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Fleet Name</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>VehiclePlate</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Licence plate</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>VehicleClassDescription</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Vehicle Class</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>VehicleClassificationValue1</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p><br>
 				</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">VehicleClassificationValue2</p>
+			<td>
+				<p>VehicleClassificationValue2</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
+			<td>
+				<p><br>
 				</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">VehicleClassificationValue3</p>
+			<td>
+				<p>VehicleClassificationValue3</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
+			<td>
+				<p><br>
 				</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">VehicleClassificationValue4</p>
+			<td>
+				<p>VehicleClassificationValue4</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
+			<td>
+				<p><br>
 				</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverName</p>
+			<td>
+				<p>DriverName</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">100</p>
+			<td>
+				<p>100</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Name of Driver</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverLicenceState</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Driver licence jurisdiction</p>
+			<td>
+				<p>Name of Driver</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverLicenceNumber</p>
+			<td>
+				<p>DriverLicenceState</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Driver licence</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverID</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverID prompt result</p>
+			<td>
+				<p>Driver licence jurisdiction</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverClassificationValue1</p>
+			<td>
+				<p>DriverLicenceNumber</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
+			<td>
+				<p>Driver licence</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>DriverID</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>N</p>
+			</td>
+			<td>
+				<p>DriverID prompt result</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>DriverClassificationValue1</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p><br>
 				</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverClassificationValue2</p>
+			<td>
+				<p>DriverClassificationValue2</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
+			<td>
+				<p><br>
 				</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverClassificationValue3</p>
+			<td>
+				<p>DriverClassificationValue3</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
+			<td>
+				<p><br>
 				</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DriverClassificationValue4</p>
+			<td>
+				<p>DriverClassificationValue4</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western"><br>
+			<td>
+				<p><br>
 				</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">EngineHours</p>
+			<td>
+				<p>EngineHours</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Engine hours prompt result</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Odometer</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Odometer prompt result</p>
+			<td>
+				<p>Engine hours prompt result</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">LastOdometer</p>
+			<td>
+				<p>Odometer</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Previous odometer value</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">LastEngineHours</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Previous engine hours value</p>
+			<td>
+				<p>Odometer prompt result</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TrailerHourMeterReading</p>
+			<td>
+				<p>LastOdometer</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">10</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Trailer hours prompt result</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TruckUnitNumber</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Truck Unit ID prompt result</p>
+			<td>
+				<p>Previous odometer value</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TrailerNumber</p>
+			<td>
+				<p>LastEngineHours</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Trailer ID prompt result</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TripNumber</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Trip/Guide/Route prompt result</p>
+			<td>
+				<p>Previous engine hours value</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">PurchaseOrderNumber</p>
+			<td>
+				<p>TrailerHourMeterReading</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">PO prompt result</p>
+			<td>
+				<p>Trailer hours prompt result</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>TruckUnitNumber</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Truck Unit ID prompt result</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>TrailerNumber</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Trailer ID prompt result</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>TripNumber</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Trip/Guide/Route prompt result</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>PurchaseOrderNumber</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>PO prompt result</p>
 			</td>
 		</tr>
 	</tbody>
@@ -2549,38 +2634,31 @@ contract terms with ATIONet.
 
 <table>
 	<tr valign="top">
-		<th align="left">Action Code
+		<th align="left">
+			Action Code
 		</th>
-		<th colspan="2" align="left">Description
+		<th colspan="2" align="left">
+			Description
 		</th>
 	</tr>
 	<tr valign="top">
-		<td rowspan="2" width="41" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">941</p>
+		<td rowspan="2">
+			<p>941</p>
 		</td>
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
+		<td>
+			<p>Title:</p>
 		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Sub-account Balance Enquiry	</p>
+		<td>
+			<p>Sub-account Balance Enquiry</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="145" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
+		<td>
+			<p>Function:</p>
 		</td>
-		<td width="338" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Retrieves the
-			total Balance for a given Sub-Account (Vehicle or Driver). Works
-			with product or money based current accounts. On a product
-			account, it returns the volume balance and the master product
-			code. May return up to two product-volume pair when the vehicle is
-			a dual-product unit.</p>
-			<p class="western">This message only retrieves information from
-			ATIONet&rsquo;s Current Account subsystem, without considering any
-			other business rule that may apply to the Site, Vehicle and/or
-			Driver, which may potentially impact on the amount or limit that
-			would be authorized at transaction time.</p>
+		<td>
+			<p>Retrieves the total Balance for a given Sub-Account (Vehicle or Driver). Works with product or money based current accounts. On a product account, it returns the volume balance and the master product code. May return up to two product-volume pair when the vehicle is a dual-product unit.</p>
+			<p>This message only retrieves information from ATIONet&rsquo;s Current Account subsystem, without considering any other business rule that may apply to the Site, Vehicle and/or Driver, which may potentially impact on the amount or limit that would be authorized at transaction time.</p>
 		</td>
 	</tr>
 </table>
@@ -2606,192 +2684,194 @@ on the body of the message:
 <table>
 	<thead>
 		<tr valign="top">
-			<th align="left">Field Name
+			<th align="left">
+				Field Name
 			</th>
-			<th align="left">Size
+			<th align="left">
+				Size
 			</th>
-			<th align="left">Type
+			<th align="left">
+				Type
 			</th>
-			<th align="left">Condition
+			<th align="left">
+				Condition
 			</th>
-			<th align="left">Descriptions/Field Value(s)
+			<th align="left">
+				Descriptions/Field Value(s)
 			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">SubscriberCode</p>
+			<td>
+				<p align="left">SubscriberCode</p>
 			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">3</p>
+			<td>
+				<p align="left">3</p>
 			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Required</p>
+			<td>
+				<p align="left">Required</p>
 			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Fixed. To be assigned by
-				ATIONet</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">ActionCode</p>
-			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">3</p>
-			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">N</p>
-			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Required</p>
-			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Operation type code. <br>See
-				Action Code Section.</p>
+			<td>
+				<p align="left">Fixed. To be assigned by ATIONet</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">CompanyCode</p>
+			<td>
+				<p align="left">ActionCode</p>
 			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">30</p>
+			<td>
+				<p align="left">3</p>
 			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">N</p>
 			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
+			<td>
+				<p align="left">Required</p>
 			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">ContractCode</p>
-			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">20</p>
-			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
-			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
+			<td>
+				<p align="left">Operation type code.
+				<br>See Action Code Section.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">DriverCode</p>
+			<td>
+				<p align="left">CompanyCode</p>
 			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
+			<td>
+				<p align="left">30</p>
 			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
+			<td>
+				<p align="left">Optional</p>
 			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">VehicleCode</p>
-			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
-			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
-			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
+			<td>
+				<p align="left">See Identification section</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">VehiclePlate</p>
+			<td>
+				<p align="left">ContractCode</p>
 			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
+			<td>
+				<p align="left">20</p>
 			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
+			<td>
+				<p align="left">Optional</p>
 			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">SubAccountExternalCode</p>
-			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
-			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
-			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
+			<td>
+				<p align="left">See Identification section</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">SubAccountId</p>
+			<td>
+				<p align="left">DriverCode</p>
 			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">36</p>
+			<td>
+				<p align="left">50</p>
 			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
+			<td>
+				<p align="left">Optional</p>
 			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
+			<td>
+				<p align="left">See Identification section</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="151" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Identifier</p>
+			<td>
+				<p align="left">VehicleCode</p>
 			</td>
-			<td width="24" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
+			<td>
+				<p align="left">50</p>
 			</td>
-			<td width="29" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="70" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
+			<td>
+				<p align="left">Optional</p>
 			</td>
-			<td width="209" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0cm">Public
-				ID of the identification device (chipkey ID, account number on
-				a mag card, RFID serial number, etc.)</p>
-				<p class="western" align="left">See Identification section</p>
+			<td>
+				<p align="left">See Identification section</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">VehiclePlate</p>
+			</td>
+			<td>
+				<p align="left">50</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">See Identification section</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">SubAccountExternalCode</p>
+			</td>
+			<td>
+				<p align="left">50</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">See Identification section</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">SubAccountId</p>
+			</td>
+			<td>
+				<p align="left">36</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">See Identification section</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">Identifier</p>
+			</td>
+			<td>
+				<p align="left">50</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">Public ID of the identification device (chipkey ID, account number on a mag card, RFID serial number, etc.)</p>
+				<p align="left">See Identification section</p>
 			</td>
 		</tr>
 	</tbody>
@@ -2802,238 +2882,232 @@ on the body of the message:
 <table>
 	<thead>
 		<tr valign="top">
-			<th align="left">Field Name
+			<th align="left">
+				Field Name
 			</th>
-			<th align="left">Size
+			<th align="left">
+				Size
 			</th>
-			<th align="left">Type
+			<th align="left">
+				Type
 			</th>
-			<th align="left">Descriptions/Field Value(s)
+			<th align="left">
+				Descriptions/Field Value(s)
 			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">SubscriberCode</p>
+			<td>
+				<p align="left">SubscriberCode</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">3</p>
+			<td>
+				<p align="left">3</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Fixed. To be assigned by ATIONet</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">CompanyCode</p>
-			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">30</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Company identification. Should be
-				ignored on Homebase subscribers.</p>
+			<td>
+				<p align="left">Fixed. To be assigned by ATIONet</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">CompanyName</p>
+			<td>
+				<p align="left">CompanyCode</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">250</p>
+			<td>
+				<p align="left">30</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Company name. Should be ignored
-				on Homebase subscribers.</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">ContractCode</p>
-			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">20</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Contract identification. Should
-				be ignored on Homebase subscribers.</p>
+			<td>
+				<p align="left">Company identification. Should be ignored on Homebase subscribers.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubContractCode</p>
+			<td>
+				<p align="left">CompanyName</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p align="left">250</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">SubContract code</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccountId</p>
-			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">36</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccount&rsquo;s UID</p>
+			<td>
+				<p align="left">Company name. Should be ignored on Homebase subscribers.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccountExternalCode</p>
+			<td>
+				<p align="left">ContractCode</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p align="left">20</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccount&rsquo;s external code</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">DriverCode</p>
-			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
+			<td>
+				<p align="left">Contract identification. Should be ignored on Homebase subscribers.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">VehicleCode</p>
+			<td>
+				<p>SubContractCode</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">VehiclePlate</p>
-			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Identification section</p>
+			<td>
+				<p>SubContract code</p>
+				<p>Not meaningful for Homebase subscribers</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Identifier</p>
+			<td>
+				<p>SubAccountId</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">250</p>
+			<td>
+				<p>36</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Identifications related to
+			<td>
+				<p>SubAccount&rsquo;s UID</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>SubAccountExternalCode</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>SubAccount&rsquo;s external code</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">DriverCode</p>
+			</td>
+			<td>
+				<p align="left">50</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">See Identification section</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">VehicleCode</p>
+			</td>
+			<td>
+				<p align="left">50</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">See Identification section</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">VehiclePlate</p>
+			</td>
+			<td>
+				<p align="left">50</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">See Identification section</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">Identifier</p>
+			</td>
+			<td>
+				<p align="left">250</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Identifications related to
 				subaccount</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FuelMasterCode</p>
+			<td>
+				<p>FuelMasterCode</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Standardized product code. Helps to identify a
-				fuel product category across multiple Merchant brands and site&rsquo;s
-				product codes</p>
+			<td>
+				<p>Standardized product code. Helps to identify a fuel product category across multiple Merchant brands and site&rsquo;s product codes</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FuelMasterDescription</p>
+			<td>
+				<p>FuelMasterDescription</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">100</p>
+			<td>
+				<p>100</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Standardized product description. Helps to
-				identify a fuel product category across multiple Merchant brands
-				and site&rsquo;s product codes</p>
+			<td>
+				<p>Standardized product description. Helps to identify a fuel product category across multiple Merchant brands and site&rsquo;s product codes</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">CurrencyCode</p>
+			<td>
+				<p align="left">CurrencyCode</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">50</p>
+			<td>
+				<p align="left">50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A</p>
+			<td>
+				<p align="left">A</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Currency configured for the
-				Contract</p>
+			<td>
+				<p align="left">Currency configured for the Contract</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="180" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Amount</p>
+			<td>
+				<p align="left">Amount</p>
 			</td>
-			<td width="38" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">10</p>
+			<td>
+				<p align="left">10</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">N</p>
+			<td>
+				<p align="left">N</p>
 			</td>
-			<td width="248" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0cm">Amount
-				balance for the sub-account. 
-				</p>
-				<p class="western" align="left">xxxxxxx.xx</p>
+			<td>
+				<p align="left">Amount balance for the sub-account.</p>
+				<p align="left">xxxxxxx.xx</p>
 			</td>
 		</tr>
 	</tbody>
@@ -3062,48 +3136,47 @@ transactions to download.
 
 <table>
 	<tr valign="top">
-		<th align="left">Action Code
+		<th align="left">
+			Action Code
 		</th>
-		<th colspan="2" align="left">Description
+		<th colspan="2" align="left">
+			Description
 		</th>
 	</tr>
 	<tr valign="top">
-		<td rowspan="4" width="54" height="19" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">951</p>
+		<td rowspan="4">
+			<p>951</p>
 		</td>
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Title:</p>
+		<td>
+			<p>Title:</p>
 		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Movements Download 
-			</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Function:</p>
-		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Download complete current account movements
-			records</p>
+		<td>
+			<p>Movements Download</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Allowed for:</p>
+		<td>
+			<p>Function:</p>
 		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Subscribers and Fleet Companies</p>
+		<td>
+			<p>Download complete current account movements records</p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="84" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western">Identification:</p>
+		<td>
+			<p>Allowed for:</p>
 		</td>
-		<td width="374" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-			<p class="western" style="margin-bottom: 0.21cm">Subscriber Code</p>
-			<p class="western">Company Code (Optional, if included will act as
-			a filter)</p>
+		<td>
+			<p>Subscribers and Fleet Companies</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>Identification:</p>
+		</td>
+		<td>
+			<p>Subscriber Code</p>
+			<p>Company Code (Optional, if included will act as a filter)</p>
 		</td>
 	</tr>
 </table>
@@ -3113,106 +3186,109 @@ transactions to download.
 <table>
 	<thead>
 		<tr valign="top">
-			<th align="left">Field Name
+			<th align="left">
+				Field Name
 			</th>
-			<th align="left">Size
+			<th align="left">
+				Size
 			</th>
-			<th align="left">Type
+			<th align="left">
+				Type
 			</th>
-			<th align="left">Condition
+			<th align="left">
+				Condition
 			</th>
-			<th align="left">Descriptions/Field Value(s)
+			<th align="left">
+				Descriptions/Field Value(s)
 			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">SubscriberCode</p>
+			<td>
+				<p align="left">SubscriberCode</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">3</p>
+			<td>
+				<p align="left">3</p>
 			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Required</p>
+			<td>
+				<p align="left">Required</p>
 			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Fixed. To be assigned by ATIONet</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">ActionCode</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">3</p>
-			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">N</p>
-			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Required</p>
-			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Action Codes section above</p>
+			<td>
+				<p align="left">Fixed. To be assigned by ATIONet</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">CompanyCode</p>
+			<td>
+				<p align="left">ActionCode</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">30</p>
+			<td>
+				<p align="left">3</p>
 			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">N</p>
 			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Conditional</p>
+			<td>
+				<p align="left">Required</p>
 			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">See Action Codes section above</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">DateFrom</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">19</p>
-			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
-			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Required</p>
-			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0cm">From
-				date to filter movements</p>
-				<p class="western" align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
+			<td>
+				<p align="left">See Action Codes section above</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="100" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">DateTo</p>
+			<td>
+				<p align="left">CompanyCode</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">19</p>
+			<td>
+				<p align="left">30</p>
 			</td>
-			<td width="37" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">A/N</p>
+			<td>
+				<p align="left">A/N</p>
 			</td>
-			<td width="76" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Optional</p>
+			<td>
+				<p align="left">Conditional</p>
 			</td>
-			<td width="239" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0cm">To
-				date to filter movements</p>
-				<p class="western" align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
+			<td>
+				<p align="left">See Action Codes section above</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">DateFrom</p>
+			</td>
+			<td>
+				<p align="left">19</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Required</p>
+			</td>
+			<td>
+				<p align="left">From date to filter movements</p>
+				<p align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">DateTo</p>
+			</td>
+			<td>
+				<p align="left">19</p>
+			</td>
+			<td>
+				<p align="left">A/N</p>
+			</td>
+			<td>
+				<p align="left">Optional</p>
+			</td>
+			<td>
+				<p align="left">To date to filter movements</p>
+				<p align="left">&ldquo;yyyy/MM/dd hh:mm:ss&rdquo;</p>
 			</td>
 		</tr>
 	</tbody>
@@ -3235,333 +3311,319 @@ transactions to download.
 	</thead>
 	<tbody>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Id</p>
+			<td>
+				<p>Id</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">36</p>
+			<td>
+				<p>36</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Current account&rsquo;s UID</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">MovementId</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">36</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Movements&rsquo;s UID</p>
+			<td>
+				<p>Current account&rsquo;s UID</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubscriberCode</p>
+			<td>
+				<p>MovementId</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">3</p>
+			<td>
+				<p>36</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Code of the subscriber who owns the
-				transaction</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">HostDateTime</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">19</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">ATIONet&rsquo;s
-				transaction date time &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;. 
-				</p>
-				<p class="western">ATIONet Host date time is UCT</p>
+			<td>
+				<p>Movements&rsquo;s UID</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">DateTime</p>
+			<td>
+				<p>SubscriberCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">19</p>
+			<td>
+				<p>3</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">movement date
-				expressed in subscriber time zone 
-				</p>
-				<p class="western">&ldquo;yyyy/mm/dd hh:mm:ss&rdquo;.</p>
+			<td>
+				<p>Code of the subscriber who owns the transaction</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubscriberTimeZone</p>
+			<td>
+				<p>HostDateTime</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>19</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TimeZone code of the subscriber (abbreviation)</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Type</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">1</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Internal ATIOnet movement type
-				code</p>
+			<td>
+				<p>ATIONet&rsquo;s transaction date time &ldquo;yyyy/mm/dd hh:mm:ss&rdquo;.</p>
+				<p>ATIONet Host date time is UCT</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">TypeDescription</p>
+			<td>
+				<p>DateTime</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>19</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Movement type description</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Origin</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">1</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Internal ATIOnet code for the origin of the
-				movement</p>
+			<td>
+				<p>movement date expressed in subscriber time zone</p>
+				<p>&ldquo;yyyy/mm/dd hh:mm:ss&rdquo;.</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">OriginDescription</p>
+			<td>
+				<p>SubscriberTimeZone</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Description for the origin of the movement</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Description</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">1000</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Movement description</p>
+			<td>
+				<p>TimeZone code of the subscriber (abbreviation)</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccountId</p>
+			<td>
+				<p>Type</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">36</p>
+			<td>
+				<p>1</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccount&rsquo;s UID</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccountExternalCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubAccount&rsquo;s external code</p>
+			<td>
+				<p align="left">Internal ATIOnet movement type code</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">CompanyCode</p>
+			<td>
+				<p>TypeDescription</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">30</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Company code</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">CompanyName</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">250</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Company name</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
+			<td>
+				<p align="left">Movement type description</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">ContractCode</p>
+			<td>
+				<p>Origin</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">20</p>
+			<td>
+				<p>1</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Contract code</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">SubContractCode</p>
-			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
-			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
-			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">SubContract code</p>
-				<p class="western">Not meaningful for Homebase subscribers</p>
+			<td>
+				<p>Internal ATIOnet code for the origin of the movement</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">IsDebit</p>
+			<td>
+				<p>OriginDescription</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">1</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" style="margin-bottom: 0.21cm">Indicates that&rsquo;s
-				a debit or credit movement</p>
-				<p class="western">1 = &ldquo;True&rdquo;, 2= &ldquo;False&rdquo;</p>
+			<td>
+				<p>Description for the origin of the movement</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FuelMasterCode</p>
+			<td>
+				<p>Description</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>1000</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Standardized product code. Helps to identify a
-				fuel product category across multiple Merchant brands and site&rsquo;s
-				product codes</p>
+			<td>
+				<p>Movement description</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">FuelMasterDescription</p>
+			<td>
+				<p>SubAccountId</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">100</p>
+			<td>
+				<p>36</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Standardized product description. Helps to
-				identify a fuel product category across multiple Merchant brands
-				and site&rsquo;s product codes</p>
+			<td>
+				<p>SubAccount&rsquo;s UID</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">CurrencyCode</p>
+			<td>
+				<p>SubAccountExternalCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">50</p>
+			<td>
+				<p>50</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">A/N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western">Currency of the amount fields</p>
+			<td>
+				<p>SubAccount&rsquo;s external code</p>
 			</td>
 		</tr>
 		<tr valign="top">
-			<td width="191" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">Amount</p>
+			<td>
+				<p>CompanyCode</p>
 			</td>
-			<td width="43" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">10</p>
+			<td>
+				<p>30</p>
 			</td>
-			<td width="31" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left">N</p>
+			<td>
+				<p>A/N</p>
 			</td>
-			<td width="232" style="border: 1px solid #00000a; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0.19cm">
-				<p class="western" align="left" style="margin-bottom: 0cm">Amount
-				balance for the sub-account. 
-				</p>
-				<p class="western" align="left">xxxxxxx.xx</p>
+			<td>
+				<p>Company code</p>
+				<p>Not meaningful for Homebase subscribers</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>CompanyName</p>
+			</td>
+			<td>
+				<p>250</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Company name</p>
+				<p>Not meaningful for Homebase subscribers</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>ContractCode</p>
+			</td>
+			<td>
+				<p>20</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Contract code</p>
+				<p>Not meaningful for Homebase subscribers</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>SubContractCode</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>SubContract code</p>
+				<p>Not meaningful for Homebase subscribers</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>IsDebit</p>
+			</td>
+			<td>
+				<p>1</p>
+			</td>
+			<td>
+				<p>N</p>
+			</td>
+			<td>
+				<p>Indicates that&rsquo;s a debit or credit movement</p>
+				<p>1 = &ldquo;True&rdquo;, 2= &ldquo;False&rdquo;</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>FuelMasterCode</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Standardized product code. Helps to identify a fuel product category across multiple Merchant brands and site&rsquo;s product codes</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>FuelMasterDescription</p>
+			</td>
+			<td>
+				<p>100</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Standardized product description. Helps to identify a fuel product category across multiple Merchant brands and site&rsquo;s product codes</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p>CurrencyCode</p>
+			</td>
+			<td>
+				<p>50</p>
+			</td>
+			<td>
+				<p>A/N</p>
+			</td>
+			<td>
+				<p>Currency of the amount fields</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td>
+				<p align="left">Amount</p>
+			</td>
+			<td>
+				<p align="left">10</p>
+			</td>
+			<td>
+				<p align="left">N</p>
+			</td>
+			<td>
+				<p align="left">Amount balance for the sub-account.</p>
+				<p align="left">xxxxxxx.xx</p>
 			</td>
 		</tr>
 	</tbody>
