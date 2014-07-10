@@ -184,6 +184,8 @@
 
 >[9.3 Account Download (POST) – Body Section Format Response](#93-account-download-post--body-section-format-response)
 
+[10 Examples](#10-examples)
+
 ####Overview####
 
 #####Introduction#####
@@ -3628,3 +3630,17 @@ transactions to download.
 		</tr>
 	</tbody>
 </table>
+
+####10 Examples####
+
+```C#
+public void function()
+{
+	//Do something
+}
+```
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
