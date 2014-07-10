@@ -245,7 +245,7 @@ Protocol: ATIONet Native Interface API
 
 Version: Version 1.3
 
-API URI: native.ationet.com/v1/interface\
+API URI: native.ationet.com/v1/interface
 
 ####2 System Interface API####
 
@@ -3634,71 +3634,51 @@ transactions to download.
 ####10 Examples####
 
 ```C#
-public bool SendRequest(string request, ref string response, string url)
-        {
-            var result = false;
+using System.IO;
+using System.IO.Compression;
+using System.Net;
+using System.Text;
 
-            for (var i = 0; i < 2 && !result; i++)
-            {
-                try
-                {
-                    var length = Encoding.ASCII.GetByteCount(request);
+using Newtonsoft.Json;
+```
 
-                    var webRequest = WebRequest.Create(url);
-                    var headers = new WebHeaderCollection { "Accept-Encoding: gzip" };
-                    webRequest.Headers = headers;
-                    webRequest.Method = "POST";
-                    webRequest.ContentLength = length;
-                    webRequest.ContentType = "text/plain";
-                    webRequest.Timeout = 20000;
+```C#
 
-                    using (var requestStream = webRequest.GetRequestStream())
-                    {
-                        requestStream.Write(Encoding.ASCII.GetBytes(request), 0, length);
-                        requestStream.Close();
-                    }
-                    
-                    using(var webResponse = webRequest.GetResponse())
-                    {
-                        using(var stream = webResponse.GetResponseStream())
-                        {
-                            if (((HttpWebResponse)webResponse).StatusCode == HttpStatusCode.OK && stream != null)
-                            {
-                                var reader = webResponse.Headers["Content-Encoding"] == "gzip"
-                                                 ? new StreamReader(new GZipStream(stream, CompressionMode.Decompress))
-                                                 : new StreamReader(stream);
+string response = null;
 
-                                response = reader.ReadToEnd();
-                                result = true;
-                            }
-                        }
+object requestObject = new { ActionCode = "941", SubscriberCode = "XXX", Identifier = "xxxxxxxx" };
 
-                        if (!result)
-                        {
-                            Logger.LogDebug(
-                                "[Web] : [SendRequest] - Web Request Attempt {0} Failed. Http Status Code: {1}",
-                                i + 1,
-                                ((HttpWebResponse)webResponse).StatusCode);
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Logger.LogDebug("[Web] : [SendRequest] - Web Request Attempt {0} Failed", i + 1);
+string request = JsonConvert.SerializeObject(requestObject);
 
-                    Logger.LogException(
-                        string.Format(
-                            "[Web] : [SendRequest] - Exception: {0}{1}Inner Exception: {2}{3}Stack Trace: {4}",
-                            ex.Message,
-                            Environment.NewLine,
-                            ex.InnerException != null ? ex.InnerException.Message : string.Empty,
-                            Environment.NewLine,
-                            !string.IsNullOrEmpty(ex.StackTrace) ? ex.StackTrace : string.Empty));
+int length = Encoding.ASCII.GetByteCount(request);
 
-                    result = false;
-                }
-            }
+WebRequest webRequest = WebRequest.Create("https://native.ationet.com/v1/interface");
+WebHeaderCollection headers = new WebHeaderCollection { "Accept-Encoding: gzip", "Authorization: Basic [User]:[Password]" };
+webRequest.Headers = headers;
+webRequest.Method = "POST";
+webRequest.ContentLength = length;
+webRequest.ContentType = "text/plain";
+webRequest.Timeout = 20000;
 
-            return result;
-        }
+using (Stream requestStream = webRequest.GetRequestStream())
+{
+	requestStream.Write(Encoding.ASCII.GetBytes(request), 0, length);
+	requestStream.Close();
+}
+
+using (WebResponse webResponse = webRequest.GetResponse())
+{
+	using (Stream stream = webResponse.GetResponseStream())
+	{
+		if (((HttpWebResponse)webResponse).StatusCode == HttpStatusCode.OK && stream != null)
+		{
+			StreamReader reader = webResponse.Headers["Content-Encoding"] == "gzip"
+			  ? new StreamReader(new GZipStream(stream, CompressionMode.Decompress))
+			  : new StreamReader(stream);
+
+			response = reader.ReadToEnd();
+			result = true;
+		}
+	}
+}
 ```
