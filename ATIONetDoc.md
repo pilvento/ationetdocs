@@ -3648,7 +3648,7 @@ using Newtonsoft.Json;
 
 ```C#
 // Create Json object
-object requestObject = new { ActionCode = "941", SubscriberCode = "XXX", Identifier = "xxxxxxxx" };
+object requestObject = new { ActionCode = "941", SubscriberCode = "{YourSubscriberCode}", Identifier = "{YourIdentifier}" };
 
 // Serialize Json object
 string request = JsonConvert.SerializeObject(requestObject);
@@ -3659,7 +3659,7 @@ int length = Encoding.ASCII.GetByteCount(request);
 WebRequest webRequest = WebRequest.Create("https://native.ationet.com/v1/interface");
 
 // Set gzip encoding (optional), user and password in the headers
-webRequest.Headers = new WebHeaderCollection { "Accept-Encoding: gzip", "Authorization: Basic [User]:[Password]" };
+webRequest.Headers = new WebHeaderCollection { "Accept-Encoding: gzip", "Authorization: Basic {User}:{Password}" };
 webRequest.Method = "POST";
 webRequest.ContentLength = length;
 
