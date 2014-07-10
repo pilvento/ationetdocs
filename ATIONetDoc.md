@@ -3634,13 +3634,71 @@ transactions to download.
 ####10 Examples####
 
 ```C#
-public void function()
-{
-	//Do something
-}
-```
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+public bool SendRequest(string request, ref string response, string url)
+        {
+            var result = false;
+
+            for (var i = 0; i < 2 && !result; i++)
+            {
+                try
+                {
+                    var length = Encoding.ASCII.GetByteCount(request);
+
+                    var webRequest = WebRequest.Create(url);
+                    var headers = new WebHeaderCollection { "Accept-Encoding: gzip" };
+                    webRequest.Headers = headers;
+                    webRequest.Method = "POST";
+                    webRequest.ContentLength = length;
+                    webRequest.ContentType = "text/plain";
+                    webRequest.Timeout = 20000;
+
+                    using (var requestStream = webRequest.GetRequestStream())
+                    {
+                        requestStream.Write(Encoding.ASCII.GetBytes(request), 0, length);
+                        requestStream.Close();
+                    }
+                    
+                    using(var webResponse = webRequest.GetResponse())
+                    {
+                        using(var stream = webResponse.GetResponseStream())
+                        {
+                            if (((HttpWebResponse)webResponse).StatusCode == HttpStatusCode.OK && stream != null)
+                            {
+                                var reader = webResponse.Headers["Content-Encoding"] == "gzip"
+                                                 ? new StreamReader(new GZipStream(stream, CompressionMode.Decompress))
+                                                 : new StreamReader(stream);
+
+                                response = reader.ReadToEnd();
+                                result = true;
+                            }
+                        }
+
+                        if (!result)
+                        {
+                            Logger.LogDebug(
+                                "[Web] : [SendRequest] - Web Request Attempt {0} Failed. Http Status Code: {1}",
+                                i + 1,
+                                ((HttpWebResponse)webResponse).StatusCode);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Logger.LogDebug("[Web] : [SendRequest] - Web Request Attempt {0} Failed", i + 1);
+
+                    Logger.LogException(
+                        string.Format(
+                            "[Web] : [SendRequest] - Exception: {0}{1}Inner Exception: {2}{3}Stack Trace: {4}",
+                            ex.Message,
+                            Environment.NewLine,
+                            ex.InnerException != null ? ex.InnerException.Message : string.Empty,
+                            Environment.NewLine,
+                            !string.IsNullOrEmpty(ex.StackTrace) ? ex.StackTrace : string.Empty));
+
+                    result = false;
+                }
+            }
+
+            return result;
+        }
 ```
