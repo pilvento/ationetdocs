@@ -3643,41 +3643,49 @@ using Newtonsoft.Json;
 ```
 
 ```C#
-
 string response = null;
 
+// Create Json object
 object requestObject = new { ActionCode = "941", SubscriberCode = "XXX", Identifier = "xxxxxxxx" };
 
+// Serialize Json object
 string request = JsonConvert.SerializeObject(requestObject);
 
+// Get total bytes to send
 int length = Encoding.ASCII.GetByteCount(request);
 
 WebRequest webRequest = WebRequest.Create("https://native.ationet.com/v1/interface");
-WebHeaderCollection headers = new WebHeaderCollection { "Accept-Encoding: gzip", "Authorization: Basic [User]:[Password]" };
-webRequest.Headers = headers;
+
+// Set gzip encoding (optional), user and password in the headers
+webRequest.Headers = new WebHeaderCollection { "Accept-Encoding: gzip", "Authorization: Basic [User]:[Password]" };
 webRequest.Method = "POST";
 webRequest.ContentLength = length;
-webRequest.ContentType = "text/plain";
-webRequest.Timeout = 20000;
 
+// Send request
 using (Stream requestStream = webRequest.GetRequestStream())
 {
 	requestStream.Write(Encoding.ASCII.GetBytes(request), 0, length);
 	requestStream.Close();
 }
 
+// Receive and analize response
 using (WebResponse webResponse = webRequest.GetResponse())
 {
 	using (Stream stream = webResponse.GetResponseStream())
 	{
 		if (((HttpWebResponse)webResponse).StatusCode == HttpStatusCode.OK && stream != null)
 		{
+			// Handle response
 			StreamReader reader = webResponse.Headers["Content-Encoding"] == "gzip"
 			  ? new StreamReader(new GZipStream(stream, CompressionMode.Decompress))
 			  : new StreamReader(stream);
 
+			// Read response
 			response = reader.ReadToEnd();
-			result = true;
+		}
+		else
+		{
+			// Handle error
 		}
 	}
 }
