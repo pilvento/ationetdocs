@@ -186,6 +186,8 @@
 
 [10 Examples](#10-examples)
 
+[10.1 C# example](#101-c-example)
+
 ####Overview####
 
 #####Introduction#####
@@ -3633,6 +3635,8 @@ transactions to download.
 
 ####10 Examples####
 
+#####10.1 C# example#####
+
 ```C#
 using System.IO;
 using System.IO.Compression;
@@ -3643,8 +3647,6 @@ using Newtonsoft.Json;
 ```
 
 ```C#
-string response = null;
-
 // Create Json object
 object requestObject = new { ActionCode = "941", SubscriberCode = "XXX", Identifier = "xxxxxxxx" };
 
@@ -3681,7 +3683,7 @@ using (WebResponse webResponse = webRequest.GetResponse())
 			  : new StreamReader(stream);
 
 			// Read response
-			response = reader.ReadToEnd();
+			string response = reader.ReadToEnd();
 		}
 		else
 		{
