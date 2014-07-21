@@ -61,11 +61,27 @@ ATIOnet's offline authorization functionality requires the ATIOnet Local Agent c
 </table>
 </br>
 
-<!-- ###Table of Content -->
+###Table of Content
+<!-- MarkdownTOC depth=3 -->
+
+- . Definitions (#1.Definitions)
+- . Scope of service
+  - .1 Requirements
+  - Architecture Diagram
+- Functional Overview
+- Offline Catalogs creation
+  - Catalog Export Process
+- Catalog Download and application
+- ransaction Processing
+- Catalog Store
+- Balance penalty based on catalog aging
+
+<!-- /MarkdownTOC -->
 
 
 
-### Definitions	
+
+###1. Definitions	(#1.Definitions)
 
 <dl>
   <dt>Capture</dt>
@@ -94,7 +110,7 @@ ATIOnet's offline authorization functionality requires the ATIOnet Local Agent c
 <!--BREAK-->
 </br>
 
-## Scope of service
+##2. Scope of service
 
 The ATIOnet's Native Offline Subsystem enables continuos offline operation for sites equiped with ATIOnet Local Agent. A Site with Offline support can transition back and forth from online to offline operation without user intervention or even notice. Also, if the internet link goes down in-between the authorization and the completion of the fueling, the Local Agent locally stores the transaction to be sent to ATIOnet's Host when the link is restablished.
 
@@ -108,7 +124,7 @@ The Offline Subsystem complies with the following design goals:
 * Authorization penalties based on aging of local catalogs
 * Encrypted storage of local catalogs
 
-### Requirements
+###2.1 Requirements
 
 * ATIOnet Offline Subsystem
 * ATIOnet Local Agent v. 1.0.7885 or later
