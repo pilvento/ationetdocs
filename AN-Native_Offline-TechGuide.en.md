@@ -64,7 +64,7 @@ ATIOnet's offline authorization functionality requires the ATIOnet Local Agent c
 ###Table of Content
 <!-- MarkdownTOC depth=3 -->
 
--Definitions (#1-Definitions)
+[Definitions] (#1-Definitions)
 - . Scope of service
   - .1 Requirements
   - Architecture Diagram
