@@ -122,17 +122,16 @@ Although the parameter is ```Vehicle PIN``` or ```Driver PIN```, the PIN is actu
 
 ## Scenarios ##
 
-|Expected Identification behavior                     |Description / Configuration strategy|
+|Expected Identification behavior                     | Description / Configuration strategy                        |
 |-----------------------------------------------------|------------------------------------------------------------|
-|Single Vehicle|Assign at least one Identification to a Vehicle-type sub-account|
-|Single Driver|Idem to a Driver-type sub-account|
+|Single Vehicle                                       | Assign at least one Identification to a Vehicle-type sub-account|
+|Single Driver| Idem to a Driver-type sub-account|
 |Dual ID, Vehicle(s) enabled for a/some Driver(s)|Configure a relation between the Vehicle(s) and the Driver(s). The Vehicle balances, cummmulators, counters and mileage will be impacted; to the Drivers, only their cummulators will be affected|
 |Dual ID, Driver(s) authorized for a/some Vehicle(s)|Configure a relation between the Drivers(s) and the Vehicles(s). The Driver(s) balances, cummmulators and counters will be impacted; to the Vehicles, only their cummulators and mileage will be modified. Only applies to Terminals with dual swipe capability|
 |Single Vehicle card with Driver ID manual prompt|Transaction is completed against Vehicle's sub-account, Driver ID is informative|
 Dual ID, Vehicle card with Driver ID manual prompt|If Terminal is configured to pass Driver ID as a secondary track, functions as a full dual ID scenario, validating the Vehicle ID and the Driver ID, if there are Vehicle/Driver relations configured those will be enforced.|
 |Vehicle ID or Vehicle card plus Vehicle PIN|PIN entry used as an entry validation, must match the PIN for the Identification presented for the Vehicle. On a single Driver Identification scenario where the Vehicle ID is not required, if the Vehicle ID prompt is active the content of the field is ignored, as there is no Vehicle ID to validate.|
 |Driver ID or Driver card plus Driver PIN|Same as Vehicle case above, but referred to Driver ID|
-
 
 
 
