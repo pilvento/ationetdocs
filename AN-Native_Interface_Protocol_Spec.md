@@ -241,7 +241,7 @@ to a particular version of the protocol, some changes may apply which
 would be specifically commented and identified on each feature’s
 description paragraph.
 
-#####1.1 Scope details:#####
+#####1.1 Scope details#####
 
 Protocol: ATIONet Native Interface API
 
