@@ -2,7 +2,7 @@
 
 ***
 
-# This is the document's title
+#This is the document's title
 > **About:** Only one paragraph to understand if I should read this.	
 
 </br>
@@ -62,12 +62,12 @@
 </table>
 </br>
 
-<!-- ###Table of Content -->
+<!--###Table of Content -->
 
 
 <!-- Optional Terms & Definition section -->
         
-### Definitions	
+###Definitions	
 
 <dl>
   <dt>Term</dt>

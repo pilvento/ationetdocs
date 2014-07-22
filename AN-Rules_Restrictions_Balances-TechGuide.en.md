@@ -2,7 +2,7 @@
 
 ***
 
-# ATIOnet Rules, Restrictions and Balances
+#ATIOnet Rules, Restrictions and Balances
 
 > **About:** This document discusses the available rules types and their interaction with sub-account balances and contract balance processing configuration at transaction authorization time. ATIOnet supports different ways to implement restrictions and limits; this information should be useful to plan ahead the best suited alternative for each case. 	
 
@@ -63,7 +63,7 @@
 </table>
 </br>
 
-<!-- ###Table of Content -->
+<!--###Table of Content -->
 
 
 <!-- Optional Terms & Definition section -->
@@ -71,7 +71,7 @@
 
 <!-- Content starts here -->
 
-## Overview ##
+##Overview##
 ATIOnet Authorization Engine evaluates authorization requests using a three-step process:
 
 - Validations. First transaction requests are inspected against formatting defects, attack intents, and data integrity issues.
@@ -82,7 +82,7 @@ As a result of the evaluation process, a transaction can be _declined_, _approve
 
 > ATIOnet always approves using the most restricting criteria 
 
-## Restrictions ##
+##Restrictions##
 Let's define _Restriction_ as any system behavior that limits some dimension of a transaction.
 
 The _dimensions_ of the restrictions are:
@@ -113,11 +113,11 @@ Restrictions can be derived from or affected by:
 	<dd>The terms of Merchant and Company contracts define the behavior of the current account subsystem, but also product and location restrictions, and both are subjects for rules application by themselves.</dd>
 </dl>
 
-## Rules ##
+##Rules##
 A Rule in ATIOnet is a user-defined condition that must be met by a transaction to be approved, or a user-value that will be used during the calculation of the amount or volume to be authorized.
 Rules are user configured and given a name when created, so they can be reused or modified affected all related subject with a single user action. 
 
-### Types of Rules ###
+###Types of Rules###
 1. **Quota**: Restricts the number of transactions or total consumption (volume or amount) on each given period of time. The parameters are the Periodicity (daily, weekly, bi-weekly, etc) and the possible quota values (Transactions count, Money or Volume quota, Contingency quota, Offline quota and Security Limit)
 2. **Fixed time**: Limit the operation to a certain period of time, after which the subject is not allowed to operate
 3. **Location**: A list of Sites where the subject will be allowed to initiate a transaction
@@ -131,7 +131,7 @@ Rules are user configured and given a name when created, so they can be reused o
 	- Trailer Number
 	- Miscellaneous prompt
 
-### Subjects for Rules ###
+###Subjects for Rules###
 Rules can be applied to:
 
 - Vehicles
@@ -140,7 +140,7 @@ Rules can be applied to:
 - Classifications (user-defined groups of Vehicles or Drivers)
 - Sites
 
-## Balances ##
+##Balances##
 The Balance is the available purchase limit of a Contract or sub-account (Vehicle or Driver).
 A Company contract can be Credit or Debit, but also may have three possible ways to maintain the balance.
 
