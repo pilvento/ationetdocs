@@ -184,6 +184,10 @@
 
 >[9.3 Account Download (POST) – Body Section Format Response](#93-account-download-post--body-section-format-response)
 
+[10 Examples](#10-examples)
+
+>[10.1 C# example](#101-c-example)
+
 ####Overview####
 
 #####Introduction#####
@@ -243,7 +247,7 @@ Protocol: ATIONet Native Interface API
 
 Version: Version 1.3
 
-API URI: native.ationet.com/v1/interface\
+API URI: native.ationet.com/v1/interface
 
 ####2 System Interface API####
 
@@ -3628,3 +3632,63 @@ transactions to download.
 		</tr>
 	</tbody>
 </table>
+
+####10 Examples####
+
+#####10.1 C# example#####
+
+```C#
+using System.IO;
+using System.IO.Compression;
+using System.Net;
+using System.Text;
+
+using Newtonsoft.Json;
+```
+
+```C#
+// Create Json object
+object requestObject = new { ActionCode = "941", SubscriberCode = "{YourSubscriberCode}", Identifier = "{YourIdentifier}" };
+
+// Serialize Json object
+string request = JsonConvert.SerializeObject(requestObject);
+
+// Get total bytes to send
+int length = Encoding.ASCII.GetByteCount(request);
+
+WebRequest webRequest = WebRequest.Create("https://native.ationet.com/v1/interface");
+
+// Set gzip encoding (optional), user and password in the headers
+webRequest.Headers = new WebHeaderCollection { "Accept-Encoding: gzip", "Authorization: Basic {User}:{Password}" };
+webRequest.Method = "POST";
+webRequest.ContentLength = length;
+
+// Send request
+using (Stream requestStream = webRequest.GetRequestStream())
+{
+	requestStream.Write(Encoding.ASCII.GetBytes(request), 0, length);
+	requestStream.Close();
+}
+
+// Receive and analize response
+using (WebResponse webResponse = webRequest.GetResponse())
+{
+	using (Stream stream = webResponse.GetResponseStream())
+	{
+		if (((HttpWebResponse)webResponse).StatusCode == HttpStatusCode.OK && stream != null)
+		{
+			// Handle response
+			StreamReader reader = webResponse.Headers["Content-Encoding"] == "gzip"
+			  ? new StreamReader(new GZipStream(stream, CompressionMode.Decompress))
+			  : new StreamReader(stream);
+
+			// Read response
+			string response = reader.ReadToEnd();
+		}
+		else
+		{
+			// Handle error
+		}
+	}
+}
+```
