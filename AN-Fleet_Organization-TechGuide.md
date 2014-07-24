@@ -79,7 +79,7 @@ Units can be trucks, cars, ships, planes, stationary machinery, generators or an
 
 | Attribute                                  | Description                                                          |
 | ------------------------------------------ | -------------------------------------------------------------------- |
-| Code                                       | Main identification key of the Unit, alphanumeric value must be unique on the Company. Should be reserved for the actual number or code for the unit on the organization. When used on filters and searches, entering a part of the code would work as a wildcard (for example entering "RT" will work as RT*, returning all units with Code starting with "RT") |
+| Code                                       | Main identification key of the Unit, alphanumeric value must be unique on the Company. Should be reserved for the actual number or code for the unit on the organization. |
 | Fleet                                      | Highest level grouping entity. A Unit must belong to a Fleet and to one fleet only.|
 | Vehicle Class                              | Every Unit belogs to a Vehicle Class. The Class resumes some attributes related to the Unit brand/model, like fuel type or fuel capacity|
 | Type (in Vehicle Class)                    | The Type of Unit is a broad classification (Light Truck, Heavy Truck, Car, etc.) |
@@ -87,35 +87,52 @@ Units can be trucks, cars, ships, planes, stationary machinery, generators or an
 | Service Type                               | Tipified description of the service to which this Unit is assigned. The Service Type, combined with the Vehicle Class will enable anonymous mileage benchmarking with other ATIOnet subscribers|
 | Service Description                        | Label. Free description of the assigned service (route, schedule, etc.)|
 
-##Fleet administration##
-Once the list of Units is loaded ready on ATIOnet, the Fleet maintenance requirements can be classified in:
 
-2. Managing balances
-3. Managing Identifications
-4. Managing restrictions and rules
-5. Reporting
 
-Balances need attention only when the Contract is set to _Balance Dispersion Mode_. In this case, a Company Admin have to take care of transferring funds -or product volume- from the Contract to the Unit's sub-account. When the Contract is set to _Do not disperse Mode_, ATIOnet automatically withdraws transaction funds from the Contract's main account, and the regular flow of payments from the Fleet Company to the Subscriber is enough to maintain the balances in order.
+##Fleet organization tips##
 
-Identifications are the cards, TAGs, keys or any other device, media support or piece of information that can be used to identify a card-holder, in this case a Unit. Usually, Identifications are assigned to the Units when they begin to use the system, but from time to time, Identifications may require some administration, for example to disable a broken card, claim a stolen or lost ID, or to reasign it from one unit to other when the Identification is reusable. 
-The union of a Unit with an Identification defines a _sub-account_ of a Contract. A given Unit might have more than one Identification, for example, because it have ring-TAGs and the unit have more than one fuel tank, or because the unit has a pre-paid disposable card as a contingency of the main account.
-On any case, Identification is managed at the Unit -or Person- level, ATIOnet provides tools to ease the administration of Identifications but no grouping or classification applies to this relation.
-A Company also might have more than one Contract with a Subscriber, this is useful to represent the departamental budgets on a corporate-wide agreement, or to split between Credit and Debit agreements with the same customer (fleet company), or another business terms. _Contracts are a business tool_
+**_Use Fleets to represent the Operation's structure_**. A Unit belongs only to one Fleet and is the only hierarchical relation on the system, also, the Fleet Admin role can be segregated from the parent Company Admin role allowing the delegation of the administration of groups of Units to different users. These features make the Fleet the ideal tool to map the operation structure, not necessarily the organization's formal structure, but the actual dependency between the Unit and its management center, for example service bases or logistic units. 	
+Fleet Admin users can re-configure the Units, assign rules, assign available Identifiers, assign Drivers, and the rest of the day-to-day functions. Except for widely distributed organizations, where a large number of fleets will be created, the Fleet level is too important to be used just for rules assignment.
 
-Reporting and Rules management are the areas where a good classification and planning pays-off.
-Rules can be applied to Fleets, Custom Classification Fields (CCFs) and Units. All of them, plus the Service-type and Service-description can be used as filters for Units administration and reporting filters. And there is no one-fits-to-all recipe on how to use them.
+**_Vehicle classes could solve the basic fuel product and transaction limit, but also work as a classification_**. Unless there is too much dispersion on the brands and models of the units, assigning a Vehicle Class during the creation of the unit will avoid to apply a Product Rule and a Transaction Limit Rule (at least as a security procedure). Vehicle classes are maintained by each fleet company, so each one can configure its own classes and not necessarily following an actual brand/model (for example, there are different brands of diesel pickups with same consumption, and fuel grade).
+
+**_Use Custom Classification Fields as matrix structure_** CCF 1 to 4 can be used to represent a different dimension of a classification matrix. There is no hierarchy between CCFs, depending on the complexity of the map the Admin may use them as unrelated attributes (for example CCF1=Department, CCF2=Route) or choose to use two or more as levels of the same dimension (CCF1=Company, CCF2=Division, CCF3=Department).
+
+**_Use the Service Description as a lower level grouping_** The Service Description field is conceived as a detailed indicator of what a Unit does, or is currently doing for some time. For example "East Highway Construction" or "Door to door delivery"
+
+##Finance and Administration requirements##
+Budget administration and control usually adds another layer of complexity to the organization of Units in a fleet management system. A common practice is to dedicate one or more tagging resources to represent the organization's budgetary structure. ATIOnet addresses this requirements with specific tools.
+
+The Company Contract in ATIOnet keeps the attributes that describes the financial and billing terms between the Fleet Company and the Subscriber; from global allowances and payment mode to fees and billing parameters, each agreement between a Company and the Subscriber is represented as a Contract; a Company may have many Contracts to accomodate different terms (i.e.: Debit and Credit), temporary operation (i.e.: seasonal contractors) or budget segmentation (by Division purchase orders).
+
+Cardholders (Units or Persons) are bound to a Contract through their Identification, which bears no relation to their membership to a Fleet, so the contractual and operating requirements do not interfere with each other. Also a Unit (or Person) might be bound to many Contracts, for example a Unit which has a TAG ID (main Contract), plus a pre-paid disposable card as a contingency (secondary Contract).
+
+>Please refer to the document: AN-Company_Contract-Concepts for details about Contract features and configuration.
 
 ![Fleet Administration Diagram](/Content/Includes/AN-Fleet_Organization-TechGuide-diagram.png)
 
-##Fleet organization##
+###Billing###
 
-_Fleets are a hierarchical organization tool_. The Fleet Admin role can be delegated from the parent Company Admin role, and a Unit belongs only to one Fleet. Therefore, the Fleet should be mapped to the actual fleet operation structure, for example the, service base, logistic unit, etc. Fleet Admin users can re-configure the Units, assign rules, assign available Identifiers, assign Drivers, and the rest of the day-to-day functions. Except for widely distributed organizations, where a large number of fleets will be created, the Fleet level is too important to be used just for rules assignment.
+Billing configuration on the Contract governs how, when and what to include in the Contract Statement. Although a Contract is bound to a Company, a different Billing entity can be specified only for this purpose. This is useful when the operating company needs to forward the bills to a parent or consolidating company.	
 
-_Vehicle classes could solve the basic fuel product and transaction limit_. Unless there is too much dispersion on the brands and models of the units, assigning a Vehicle Class during the creation of the unit will avoid to apply a Product Rule and a Transaction Limit Rule (at least as a security procedure). Vehicle classes are maintained by each fleet company, so each one can configure its own classes and not necessarily following an actual brand/model (for example, there are different brands of diesel pickups with same consumption, and fuel grade).
+###Balances###
+The _Balance_ of an account is the amount of money or product volume available for authorization at a given time -other restrictions and conditions may modify the actual authorized amount or volume-.
 
-_Custom Classification Fields_ can be used as a filtering tool on reports and administrative views but also to apply Rules. Once a CCF is named by a Company Admin user, that label is used accross the system for all the users of the Company. CCF can be used to map the organization or budget structure, service type (route, zone, service hours), fleet sub-divisions or any other classification purpose. CCF are optionals from one to four and don't have a hierarchical structure.
+Each Contract maintains a Sub-Account for each member cardholder (Person or Unit). On the above example of the Unit with two identifications, when the primary TAG is used, the transaction will be authorized against balance of the main Contract, but when the contingency Identification is presented, the the secondary Contract will be charged.
+
+> On any case, every transaction for the Unit will update the Unit's statistics (consumption history, quotas, mileage, etc.) which are maintained at the Unit level, regardless of what sub-account and contract is charged.
 
 
+##User interface features##
+ATIOnet's user interface has advanced searching and filtering features that also contribute to managing a large number or Units. 
+
+###Autocomplete###
+In Search and Filter boxes, text fields connected to an ATIOnet entity like Code, Fleet or a CCF have autocomplete capability. Typing a few characters of a value will automatically present a drop-down list will all matching values to select from. Also accept multiple values, to search for any value of a list (for example: Fleet=```North x``` ```South x``` will return all Units for the North AND South fleets). 
+
+Autocomplete simplify entering complex text values, reducing typing errors and saving time. Also leverages the use of complex, multi-segment values on CCF lists, reducing the need to dedicate more than one CCF to represent a structured code. A typical example is the Division and Department tagging of Units. Instead of dedicating CCF1 to Divisions and CCF2 to Departments, a single field Division-Department could be implemented.
+
+###Named Filters###
+Any search criteria on any on-screen view in ATIOnet can be saved as a named filter. Filters not only let reuse previous search criteria, but also work as a user-defined site navigation tool, users can jump from anywhere on the site to the target view selecting the desired filter from the ```My Filters``` list. Saved Filters can be private, or shared with other users.
 
  
 
