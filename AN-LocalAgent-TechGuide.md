@@ -85,7 +85,7 @@ The Local Agent provides the following services to the Capture System (CS):
 - **Gateway service to ATIOnet Host with protocol conversion**. The CS connects to the Local Agent on a local or remote private network via a TCP/IP socket and the Local Agent forwards the messages to ATIOnet, including protocol conversion to ATIOnet Native Transaction Protocol.
 - **Offline authorization**. In the case of a communication failure between the Local Agent and the ATIOnet Host, the Local Agent will continue to authorize and store transactions with the CS. Once the link is restablished, a re-synchronization is performed automatically and the on-line service is resumed.
 
-> This document covers the software part of the ATIOnet Local Agent. Hardware setup and support topics for the bundled version are not included.
+> This document covers the software component of the ATIOnet Local Agent. Hardware setup and support topics for the bundled version are not included.
 
 ###Audience
 This document is intended for technical support staff including the following:
